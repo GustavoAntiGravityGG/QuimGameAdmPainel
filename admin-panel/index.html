@@ -29,13 +29,13 @@ dialog{width:min(690px,94vw);max-height:90vh;border:1px solid var(--line);border
       <div><div class="eyebrow">Administração do laboratório</div><h1>Receitas do jogo</h1><p class="subhead">Gerencie as combinações químicas e as equações exibidas no Quim Game.</p></div>
       <div class="top-actions">
         <span class="save-status"><i class="dot"></i><span id="save-label">Dados iniciais carregados</span></span>
-        <button class="button" id="import-btn">⬆ Importar JSON</button>
+        <button class="button" id="import-btn" title="Atalho: Ctrl + Alt + U" aria-keyshortcuts="Control+Alt+U">⬆ Importar JSON <span class="hint">Ctrl+Alt+U</span></button>
         <button class="button" id="export-btn">⬇ Exportar JSON</button>
         <button class="button primary" id="add-btn">＋ Nova receita</button>
         <input type="file" id="import-file" accept="application/json,.json" hidden>
       </div>
     </header>
-    
+    <div class="notice" id="api-notice"><strong>API:</strong> <span class="api-message" id="api-message">Verificando conexão. Neste navegador, alterações também ficam salvas localmente.</span><div class="api-controls"><label class="hint" for="admin-token">Token ADM</label><input id="admin-token" type="password" autocomplete="off" placeholder="Token configurado no Vercel" aria-label="Token de administrador da API"><button class="button" id="connect-api-btn" type="button">Conectar API</button><button class="button primary" id="publish-local-btn" type="button" hidden disabled>Publicar rascunho local</button><button class="button" id="discard-local-btn" type="button" hidden>Usar catálogo online</button></div></div>
     <section class="stats" aria-label="Resumo do catálogo">
       <article class="stat"><div class="stat-label"><span>Receitas</span><i class="stat-icon">📜</i></div><b id="stat-recipes">0</b><small>Combinações cadastradas</small></article>
       <article class="stat"><div class="stat-label"><span>Produtos</span><i class="stat-icon">⚗️</i></div><b id="stat-products">0</b><small>Substâncias únicas</small></article>
@@ -351,14 +351,30 @@ $('#discard-local-btn').onclick=()=>{
   render();
 };
 $('#import-btn').onclick=()=>$('#import-file').click();
+document.addEventListener('keydown',event=>{
+  if(event.repeat||!event.ctrlKey||!event.altKey||event.shiftKey||event.key.toLowerCase()!=='u')return;
+  event.preventDefault();
+  $('#import-file').click();
+});
 $('#import-file').onchange=async event=>{
   const file=event.target.files?.[0];if(!file)return;
   try{
     const payload=JSON.parse(await file.text());const incoming=Array.isArray(payload)?payload:payload.recipes;
-    if(!Array.isArray(incoming)||!incoming.every(item=>item&&item.a&&item.b&&item.productId&&item.name&&item.formula))throw new Error('Formato inválido');
-    recipes=incoming.map((item,index)=>({uid:item.uid||`import-${Date.now()}-${index}`,a:String(item.a),b:String(item.b),productId:String(item.productId),name:String(item.name),formula:String(item.formula),icon:String(item.icon||'🧪'),equation:String(item.equation||'')}));
+    if(!Array.isArray(incoming)||!incoming.length||incoming.length>5000)throw new Error('Formato inválido');
+    const imported=incoming.map((item,index)=>({uid:String(item?.uid||`import-${Date.now()}-${index}`),a:String(item?.a||''),b:String(item?.b||''),productId:String(item?.productId||''),name:String(item?.name||''),formula:String(item?.formula||''),icon:String(item?.icon||'🧪'),equation:String(item?.equation||'')}));
+    const uids=new Set(),pairs=new Set();
+    for(const [index,item] of imported.entries()){
+      const pair=[item.a,item.b].sort().join('+');
+      if(!item.uid||item.uid.length>100||uids.has(item.uid))throw new Error(`ID ausente ou repetido na receita ${index+1}`);
+      if(![item.a,item.b,item.productId].every(id=>/^[A-Za-z0-9_-]{1,60}$/.test(id)))throw new Error(`ID inválido na receita ${index+1}`);
+      if(!item.name||item.name.length>120||!item.formula||item.formula.length>80||item.icon.length>16||item.equation.length>500)throw new Error(`Campo inválido na receita ${index+1}`);
+      if(pairs.has(pair))throw new Error(`Combinação repetida: ${item.a} + ${item.b}`);
+      uids.add(item.uid);pairs.add(pair);
+    }
+    if(!confirm(`Importar ${imported.length} receitas? Isso substituirá o catálogo atual${apiAuthenticated&&apiWritable?' no servidor também':''}.`)){event.target.value='';return;}
+    recipes=imported;
     saveRecipes('JSON importado');
-  }catch(error){alert('Não consegui importar. Use um JSON exportado pelo painel com os campos de receita.');}
+  }catch(error){alert(`Não consegui importar esse JSON: ${error.message||'formato inválido'}. Confira se ele foi exportado pelo painel.`);}
   event.target.value='';
 };
 $('#reset-btn').onclick=()=>{
