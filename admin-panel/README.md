@@ -12,6 +12,37 @@ O painel inclui uma API no mesmo projeto Vercel. O catálogo inicial é carregad
 
 A primeira leitura serve o catálogo inicial. A primeira gravação cria a cópia persistente no Redis. Se houver um rascunho neste navegador diferente do catálogo online, o painel o mantém separado e pede que você escolha publicá-lo ou descartá-lo. O token permanece apenas na memória da página.
 
+## Formato do catálogo
+
+O JSON mantém os metadados dos elementos no nível superior e agrupa as receitas em `recipes.class`. O painel inicia com as classes `acido`, `metais` e `outros`; receitas novas podem ser atribuídas a qualquer classe criada pelo botão **Nova classe**.
+
+```json
+{
+  "version": 2,
+  "elements": [],
+  "recipes": {
+    "class": {
+      "acido": [
+        {
+          "uid": "recipe-55",
+          "a": "agua",
+          "b": "so3",
+          "productId": "h2so4",
+          "name": "Ácido sulfúrico",
+          "formula": "H₂SO₄",
+          "icon": "⚗️",
+          "equation": "H₂O + SO₃ → H₂SO₄"
+        }
+      ],
+      "metais": [],
+      "outros": []
+    }
+  }
+}
+```
+
+As receitas que não forem ácidos, metais ou ligas ficam em `outros`. Cada classe contém uma lista de receitas com os mesmos campos.
+
 ## Endpoints
 
 - `GET /api/recipes`: leitura pública do catálogo; aceita chamadas do jogo quando a origem estiver autorizada.

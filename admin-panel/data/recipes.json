@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "elements": [
     {
       "number": 1,
@@ -709,2336 +710,2344 @@
       "name": "Oganessônio"
     }
   ],
-  "recipes": [
-    {
-      "uid": "recipe-1",
-      "a": "H",
-      "b": "H",
-      "productId": "h2",
-      "name": "Gás hidrogênio",
-      "formula": "H₂",
-      "icon": "🎈",
-      "equation": "2H → H₂"
-    },
-    {
-      "uid": "recipe-2",
-      "a": "O",
-      "b": "O",
-      "productId": "o2",
-      "name": "Gás oxigênio",
-      "formula": "O₂",
-      "icon": "🫧",
-      "equation": "2O → O₂"
-    },
-    {
-      "uid": "recipe-3",
-      "a": "N",
-      "b": "N",
-      "productId": "n2",
-      "name": "Gás nitrogênio",
-      "formula": "N₂",
-      "icon": "💨",
-      "equation": "2N → N₂"
-    },
-    {
-      "uid": "recipe-4",
-      "a": "F",
-      "b": "F",
-      "productId": "f2",
-      "name": "Gás flúor",
-      "formula": "F₂",
-      "icon": "🟡",
-      "equation": "2F → F₂"
-    },
-    {
-      "uid": "recipe-5",
-      "a": "Cl",
-      "b": "Cl",
-      "productId": "cl2",
-      "name": "Gás cloro",
-      "formula": "Cl₂",
-      "icon": "🟢",
-      "equation": "2Cl → Cl₂"
-    },
-    {
-      "uid": "recipe-6",
-      "a": "Br",
-      "b": "Br",
-      "productId": "br2",
-      "name": "Bromo líquido",
-      "formula": "Br₂",
-      "icon": "🟤",
-      "equation": "2Br → Br₂"
-    },
-    {
-      "uid": "recipe-7",
-      "a": "I",
-      "b": "I",
-      "productId": "i2",
-      "name": "Iodo sólido",
-      "formula": "I₂",
-      "icon": "🟣",
-      "equation": "2I → I₂"
-    },
-    {
-      "uid": "recipe-8",
-      "a": "O",
-      "b": "o2",
-      "productId": "o3",
-      "name": "Ozônio",
-      "formula": "O₃",
-      "icon": "🌐",
-      "equation": "O + O₂ → O₃"
-    },
-    {
-      "uid": "recipe-9",
-      "a": "h2",
-      "b": "o2",
-      "productId": "agua",
-      "name": "Água",
-      "formula": "H₂O",
-      "icon": "💧",
-      "equation": "2H₂ + O₂ → 2H₂O"
-    },
-    {
-      "uid": "recipe-10",
-      "a": "h2",
-      "b": "O",
-      "productId": "agua",
-      "name": "Água",
-      "formula": "H₂O",
-      "icon": "💧",
-      "equation": "2H₂ + O₂ → 2H₂O"
-    },
-    {
-      "uid": "recipe-11",
-      "a": "agua",
-      "b": "o2",
-      "productId": "h2o2",
-      "name": "Água oxigenada",
-      "formula": "H₂O₂",
-      "icon": "🩹",
-      "equation": "2H₂O + O₂ → 2H₂O₂"
-    },
-    {
-      "uid": "recipe-12",
-      "a": "agua",
-      "b": "O",
-      "productId": "h2o2",
-      "name": "Água oxigenada",
-      "formula": "H₂O₂",
-      "icon": "🩹",
-      "equation": "H₂O + O → H₂O₂"
-    },
-    {
-      "uid": "recipe-13",
-      "a": "h2",
-      "b": "n2",
-      "productId": "nh3",
-      "name": "Amônia",
-      "formula": "NH₃",
-      "icon": "🧴",
-      "equation": "3H₂ + N₂ → 2NH₃"
-    },
-    {
-      "uid": "recipe-14",
-      "a": "h2",
-      "b": "cl2",
-      "productId": "hcl",
-      "name": "Ácido clorídrico",
-      "formula": "HCl",
-      "icon": "🧪",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-15",
-      "a": "h2",
-      "b": "f2",
-      "productId": "hf",
-      "name": "Ácido fluorídrico",
-      "formula": "HF",
-      "icon": "🫗",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-16",
-      "a": "h2",
-      "b": "br2",
-      "productId": "hbr",
-      "name": "Ácido bromídrico",
-      "formula": "HBr",
-      "icon": "🟠",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-17",
-      "a": "h2",
-      "b": "i2",
-      "productId": "hi",
-      "name": "Ácido iodídrico",
-      "formula": "HI",
-      "icon": "🔮",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-18",
-      "a": "C",
-      "b": "h2",
-      "productId": "ch4",
-      "name": "Metano",
-      "formula": "CH₄",
-      "icon": "🔥",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-19",
-      "a": "h2",
-      "b": "S",
-      "productId": "h2s",
-      "name": "Gás sulfídrico",
-      "formula": "H₂S",
-      "icon": "🥚",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-20",
-      "a": "h2",
-      "b": "Li",
-      "productId": "lih",
-      "name": "Hidreto de lítio",
-      "formula": "LiH",
-      "icon": "🔋",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-21",
-      "a": "h2",
-      "b": "Na",
-      "productId": "nah",
-      "name": "Hidreto de sódio",
-      "formula": "NaH",
-      "icon": "⚪",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-22",
-      "a": "h2",
-      "b": "Ca",
-      "productId": "cah2",
-      "name": "Hidreto de cálcio",
-      "formula": "CaH₂",
-      "icon": "🏔️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-23",
-      "a": "C",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-24",
-      "a": "C",
-      "b": "co2",
-      "productId": "co",
-      "name": "Monóxido de carbono",
-      "formula": "CO",
-      "icon": "☁️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-25",
-      "a": "co",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-26",
-      "a": "S",
-      "b": "o2",
-      "productId": "so2",
-      "name": "Dióxido de enxofre",
-      "formula": "SO₂",
-      "icon": "🌋",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-27",
-      "a": "so2",
-      "b": "o2",
-      "productId": "so3",
-      "name": "Trióxido de enxofre",
-      "formula": "SO₃",
-      "icon": "🟨",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-28",
-      "a": "n2",
-      "b": "o2",
-      "productId": "no",
-      "name": "Monóxido de nitrogênio",
-      "formula": "NO",
-      "icon": "🟠",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-29",
-      "a": "no",
-      "b": "o2",
-      "productId": "no2",
-      "name": "Dióxido de nitrogênio",
-      "formula": "NO₂",
-      "icon": "🟤",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-30",
-      "a": "Ca",
-      "b": "o2",
-      "productId": "cao",
-      "name": "Cal virgem",
-      "formula": "CaO",
-      "icon": "🪨",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-31",
-      "a": "Mg",
-      "b": "o2",
-      "productId": "mgo",
-      "name": "Óxido de magnésio",
-      "formula": "MgO",
-      "icon": "✨",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-32",
-      "a": "Fe",
-      "b": "o2",
-      "productId": "ferrugem",
-      "name": "Ferrugem (Óxido de ferro III)",
-      "formula": "Fe₂O₃",
-      "icon": "🟫",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-33",
-      "a": "Al",
-      "b": "o2",
-      "productId": "alumina",
-      "name": "Alumina",
-      "formula": "Al₂O₃",
-      "icon": "💎",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-34",
-      "a": "Si",
-      "b": "o2",
-      "productId": "silica",
-      "name": "Sílica",
-      "formula": "SiO₂",
-      "icon": "🏖️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-35",
-      "a": "Zn",
-      "b": "o2",
-      "productId": "zno",
-      "name": "Óxido de zinco",
-      "formula": "ZnO",
-      "icon": "☀️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-36",
-      "a": "Ti",
-      "b": "o2",
-      "productId": "tio2",
-      "name": "Dióxido de titânio",
-      "formula": "TiO₂",
-      "icon": "🤍",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-37",
-      "a": "Cu",
-      "b": "o2",
-      "productId": "cuo",
-      "name": "Óxido de cobre(II)",
-      "formula": "CuO",
-      "icon": "⚫",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-38",
-      "a": "Cr",
-      "b": "o2",
-      "productId": "cr2o3",
-      "name": "Óxido de cromo(III)",
-      "formula": "Cr₂O₃",
-      "icon": "🌿",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-39",
-      "a": "Mn",
-      "b": "o2",
-      "productId": "mno2",
-      "name": "Dióxido de manganês",
-      "formula": "MnO₂",
-      "icon": "🔋",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-40",
-      "a": "P",
-      "b": "o2",
-      "productId": "p2o5",
-      "name": "Pentóxido de fósforo",
-      "formula": "P₄O₁₀",
-      "icon": "⬜",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-41",
-      "a": "Zr",
-      "b": "o2",
-      "productId": "zro2",
-      "name": "Zircônia",
-      "formula": "ZrO₂",
-      "icon": "💠",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-42",
-      "a": "Co",
-      "b": "o2",
-      "productId": "coo",
-      "name": "Óxido de cobalto(II)",
-      "formula": "CoO",
-      "icon": "🔹",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-43",
-      "a": "Ni",
-      "b": "o2",
-      "productId": "nio",
-      "name": "Óxido de níquel(II)",
-      "formula": "NiO",
-      "icon": "🟩",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-44",
-      "a": "Na",
-      "b": "o2",
-      "productId": "na2o",
-      "name": "Óxido de sódio",
-      "formula": "Na₂O",
-      "icon": "🔆",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-45",
-      "a": "K",
-      "b": "o2",
-      "productId": "k2o",
-      "name": "Óxido de potássio",
-      "formula": "K₂O",
-      "icon": "🌱",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-46",
-      "a": "Li",
-      "b": "o2",
-      "productId": "li2o",
-      "name": "Óxido de lítio",
-      "formula": "Li₂O",
-      "icon": "🪫",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-47",
-      "a": "Ba",
-      "b": "o2",
-      "productId": "bao",
-      "name": "Óxido de bário",
-      "formula": "BaO",
-      "icon": "🎇",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-48",
-      "a": "B",
-      "b": "o2",
-      "productId": "b2o3",
-      "name": "Óxido de boro",
-      "formula": "B₂O₃",
-      "icon": "🔶",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-49",
-      "a": "V",
-      "b": "o2",
-      "productId": "v2o5",
-      "name": "Pentóxido de vanádio",
-      "formula": "V₂O₅",
-      "icon": "🟧",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-50",
-      "a": "W",
-      "b": "o2",
-      "productId": "wo3",
-      "name": "Trióxido de tungstênio",
-      "formula": "WO₃",
-      "icon": "🟡",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-51",
-      "a": "Pb",
-      "b": "o2",
-      "productId": "pbo",
-      "name": "Óxido de chumbo(II)",
-      "formula": "PbO",
-      "icon": "🟥",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-52",
-      "a": "Sn",
-      "b": "o2",
-      "productId": "sno2",
-      "name": "Dióxido de estanho",
-      "formula": "SnO₂",
-      "icon": "🥫",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-53",
-      "a": "Hg",
-      "b": "o2",
-      "productId": "hgo",
-      "name": "Óxido de mercúrio(II)",
-      "formula": "HgO",
-      "icon": "🔴",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-54",
-      "a": "Bi",
-      "b": "o2",
-      "productId": "bi2o3",
-      "name": "Óxido de bismuto",
-      "formula": "Bi₂O₃",
-      "icon": "🌤️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-55",
-      "a": "agua",
-      "b": "so3",
-      "productId": "h2so4",
-      "name": "Ácido sulfúrico",
-      "formula": "H₂SO₄",
-      "icon": "⚗️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-56",
-      "a": "agua",
-      "b": "so2",
-      "productId": "h2so3",
-      "name": "Ácido sulfuroso",
-      "formula": "H₂SO₃",
-      "icon": "🌧️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-57",
-      "a": "agua",
-      "b": "co2",
-      "productId": "h2co3",
-      "name": "Ácido carbônico",
-      "formula": "H₂CO₃",
-      "icon": "🥂",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-58",
-      "a": "agua",
-      "b": "no2",
-      "productId": "hno3",
-      "name": "Ácido nítrico",
-      "formula": "HNO₃",
-      "icon": "🧫",
-      "equation": "3NO₂ + H₂O → 2HNO₃ + NO"
-    },
-    {
-      "uid": "recipe-59",
-      "a": "agua",
-      "b": "p2o5",
-      "productId": "h3po4",
-      "name": "Ácido fosfórico",
-      "formula": "H₃PO₄",
-      "icon": "🥤",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-60",
-      "a": "agua",
-      "b": "b2o3",
-      "productId": "h3bo3",
-      "name": "Ácido bórico",
-      "formula": "H₃BO₃",
-      "icon": "👁️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-61",
-      "a": "agua",
-      "b": "wo3",
-      "productId": "h2wo4",
-      "name": "Ácido túngstico",
-      "formula": "H₂WO₄",
-      "icon": "🔦",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-62",
-      "a": "Na",
-      "b": "agua",
-      "productId": "naoh",
-      "name": "Soda cáustica",
-      "formula": "NaOH",
-      "icon": "🧼",
-      "equation": "2Na + 2H₂O → 2NaOH + H₂"
-    },
-    {
-      "uid": "recipe-63",
-      "a": "K",
-      "b": "agua",
-      "productId": "koh",
-      "name": "Hidróxido de potássio",
-      "formula": "KOH",
-      "icon": "🧽",
-      "equation": "2K + 2H₂O → 2KOH + H₂"
-    },
-    {
-      "uid": "recipe-64",
-      "a": "Li",
-      "b": "agua",
-      "productId": "lioh",
-      "name": "Hidróxido de lítio",
-      "formula": "LiOH",
-      "icon": "🚀",
-      "equation": "2Li + 2H₂O → 2LiOH + H₂"
-    },
-    {
-      "uid": "recipe-65",
-      "a": "Ba",
-      "b": "agua",
-      "productId": "baoh2",
-      "name": "Hidróxido de bário",
-      "formula": "Ba(OH)₂",
-      "icon": "🧂",
-      "equation": "Ba + 2H₂O → Ba(OH)₂ + H₂"
-    },
-    {
-      "uid": "recipe-66",
-      "a": "Ca",
-      "b": "agua",
-      "productId": "caoh2",
-      "name": "Cal hidratada",
-      "formula": "Ca(OH)₂",
-      "icon": "🏗️",
-      "equation": "Ca + 2H₂O → Ca(OH)₂ + H₂"
-    },
-    {
-      "uid": "recipe-67",
-      "a": "Mg",
-      "b": "agua",
-      "productId": "mgoh2",
-      "name": "Leite de magnésia",
-      "formula": "Mg(OH)₂",
-      "icon": "🥛",
-      "equation": "Mg + 2H₂O → Mg(OH)₂ + H₂"
-    },
-    {
-      "uid": "recipe-68",
-      "a": "agua",
-      "b": "cao",
-      "productId": "caoh2",
-      "name": "Cal hidratada",
-      "formula": "Ca(OH)₂",
-      "icon": "🏗️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-69",
-      "a": "agua",
-      "b": "mgo",
-      "productId": "mgoh2",
-      "name": "Leite de magnésia",
-      "formula": "Mg(OH)₂",
-      "icon": "🥛",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-70",
-      "a": "agua",
-      "b": "na2o",
-      "productId": "naoh",
-      "name": "Soda cáustica",
-      "formula": "NaOH",
-      "icon": "🧼",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-71",
-      "a": "agua",
-      "b": "k2o",
-      "productId": "koh",
-      "name": "Hidróxido de potássio",
-      "formula": "KOH",
-      "icon": "🧽",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-72",
-      "a": "agua",
-      "b": "bao",
-      "productId": "baoh2",
-      "name": "Hidróxido de bário",
-      "formula": "Ba(OH)₂",
-      "icon": "🧂",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-73",
-      "a": "agua",
-      "b": "nh3",
-      "productId": "nh4oh",
-      "name": "Amônia aquosa",
-      "formula": "NH₃(aq)",
-      "icon": "🧹",
-      "equation": "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻"
-    },
-    {
-      "uid": "recipe-74",
-      "a": "Na",
-      "b": "cl2",
-      "productId": "sal",
-      "name": "Sal de cozinha",
-      "formula": "NaCl",
-      "icon": "🧂",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-75",
-      "a": "hcl",
-      "b": "naoh",
-      "productId": "sal",
-      "name": "Sal de cozinha",
-      "formula": "NaCl",
-      "icon": "🧂",
-      "equation": "HCl + NaOH → NaCl + H₂O"
-    },
-    {
-      "uid": "recipe-76",
-      "a": "K",
-      "b": "cl2",
-      "productId": "kcl",
-      "name": "Cloreto de potássio",
-      "formula": "KCl",
-      "icon": "🍌",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-77",
-      "a": "Ca",
-      "b": "cl2",
-      "productId": "cacl2",
-      "name": "Cloreto de cálcio",
-      "formula": "CaCl₂",
-      "icon": "❄️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-78",
-      "a": "Mg",
-      "b": "cl2",
-      "productId": "mgcl2",
-      "name": "Cloreto de magnésio",
-      "formula": "MgCl₂",
-      "icon": "🌊",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-79",
-      "a": "Al",
-      "b": "cl2",
-      "productId": "alcl3",
-      "name": "Cloreto de alumínio",
-      "formula": "AlCl₃",
-      "icon": "🧊",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-80",
-      "a": "Fe",
-      "b": "cl2",
-      "productId": "fecl3",
-      "name": "Cloreto férrico",
-      "formula": "FeCl₃",
-      "icon": "🟠",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-81",
-      "a": "Cu",
-      "b": "cl2",
-      "productId": "cucl2",
-      "name": "Cloreto de cobre(II)",
-      "formula": "CuCl₂",
-      "icon": "🟢",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-82",
-      "a": "Zn",
-      "b": "cl2",
-      "productId": "zncl2",
-      "name": "Cloreto de zinco",
-      "formula": "ZnCl₂",
-      "icon": "🔩",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-83",
-      "a": "Ag",
-      "b": "cl2",
-      "productId": "agcl",
-      "name": "Cloreto de prata",
-      "formula": "AgCl",
-      "icon": "⚪",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-84",
-      "a": "Na",
-      "b": "br2",
-      "productId": "nabr",
-      "name": "Brometo de sódio",
-      "formula": "NaBr",
-      "icon": "🏊",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-85",
-      "a": "Ag",
-      "b": "br2",
-      "productId": "agbr",
-      "name": "Brometo de prata",
-      "formula": "AgBr",
-      "icon": "📷",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-86",
-      "a": "K",
-      "b": "i2",
-      "productId": "ki",
-      "name": "Iodeto de potássio",
-      "formula": "KI",
-      "icon": "🥼",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-87",
-      "a": "Ag",
-      "b": "i2",
-      "productId": "agi",
-      "name": "Iodeto de prata",
-      "formula": "AgI",
-      "icon": "☔",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-88",
-      "a": "Na",
-      "b": "f2",
-      "productId": "naf",
-      "name": "Fluoreto de sódio",
-      "formula": "NaF",
-      "icon": "🦷",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-89",
-      "a": "Ca",
-      "b": "f2",
-      "productId": "caf2",
-      "name": "Fluorita",
-      "formula": "CaF₂",
-      "icon": "💜",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-90",
-      "a": "Al",
-      "b": "f2",
-      "productId": "alf3",
-      "name": "Fluoreto de alumínio",
-      "formula": "AlF₃",
-      "icon": "🏭",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-91",
-      "a": "Xe",
-      "b": "f2",
-      "productId": "xef2",
-      "name": "Difluoreto de xenônio",
-      "formula": "XeF₂",
-      "icon": "🪩",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-92",
-      "a": "Kr",
-      "b": "f2",
-      "productId": "krf2",
-      "name": "Difluoreto de criptônio",
-      "formula": "KrF₂",
-      "icon": "🧿",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-93",
-      "a": "hcl",
-      "b": "nh3",
-      "productId": "nh4cl",
-      "name": "Cloreto de amônio",
-      "formula": "NH₄Cl",
-      "icon": "🌬️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-94",
-      "a": "cuo",
-      "b": "h2so4",
-      "productId": "cuso4",
-      "name": "Sulfato de cobre(II)",
-      "formula": "CuSO₄",
-      "icon": "🔵",
-      "equation": "CuO + H₂SO₄ → CuSO₄ + H₂O"
-    },
-    {
-      "uid": "recipe-95",
-      "a": "Ba",
-      "b": "h2so4",
-      "productId": "baso4",
-      "name": "Sulfato de bário",
-      "formula": "BaSO₄",
-      "icon": "🩻",
-      "equation": "Ba + H₂SO₄ → BaSO₄ + H₂"
-    },
-    {
-      "uid": "recipe-96",
-      "a": "Zn",
-      "b": "h2so4",
-      "productId": "znso4",
-      "name": "Sulfato de zinco",
-      "formula": "ZnSO₄",
-      "icon": "💧",
-      "equation": "Zn + H₂SO₄ → ZnSO₄ + H₂"
-    },
-    {
-      "uid": "recipe-97",
-      "a": "Mg",
-      "b": "h2so4",
-      "productId": "mgso4",
-      "name": "Sal de Epsom",
-      "formula": "MgSO₄",
-      "icon": "🛁",
-      "equation": "Mg + H₂SO₄ → MgSO₄ + H₂"
-    },
-    {
-      "uid": "recipe-98",
-      "a": "Fe",
-      "b": "h2so4",
-      "productId": "feso4",
-      "name": "Sulfato de ferro(II)",
-      "formula": "FeSO₄",
-      "icon": "🟩",
-      "equation": "Fe + H₂SO₄ → FeSO₄ + H₂"
-    },
-    {
-      "uid": "recipe-99",
-      "a": "Ca",
-      "b": "h2so4",
-      "productId": "caso4",
-      "name": "Sulfato de cálcio",
-      "formula": "CaSO₄",
-      "icon": "🧱",
-      "equation": "Ca + H₂SO₄ → CaSO₄ + H₂"
-    },
-    {
-      "uid": "recipe-100",
-      "a": "naoh",
-      "b": "h2so4",
-      "productId": "na2so4",
-      "name": "Sulfato de sódio",
-      "formula": "Na₂SO₄",
-      "icon": "🧺",
-      "equation": "2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O"
-    },
-    {
-      "uid": "recipe-101",
-      "a": "cao",
-      "b": "co2",
-      "productId": "caco3",
-      "name": "Calcário",
-      "formula": "CaCO₃",
-      "icon": "🐚",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-102",
-      "a": "caoh2",
-      "b": "co2",
-      "productId": "caco3",
-      "name": "Calcário",
-      "formula": "CaCO₃",
-      "icon": "🐚",
-      "equation": "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O"
-    },
-    {
-      "uid": "recipe-103",
-      "a": "naoh",
-      "b": "co2",
-      "productId": "na2co3",
-      "name": "Carbonato de sódio",
-      "formula": "Na₂CO₃",
-      "icon": "🥣",
-      "equation": "2NaOH + CO₂ → Na₂CO₃ + H₂O"
-    },
-    {
-      "uid": "recipe-104",
-      "a": "h2co3",
-      "b": "na2co3",
-      "productId": "nahco3",
-      "name": "Bicarbonato de sódio",
-      "formula": "NaHCO₃",
-      "icon": "🍰",
-      "equation": "H₂CO₃ + Na₂CO₃ → 2NaHCO₃"
-    },
-    {
-      "uid": "recipe-105",
-      "a": "Ca",
-      "b": "h3po4",
-      "productId": "ca3po42",
-      "name": "Fosfato de cálcio",
-      "formula": "Ca₃(PO₄)₂",
-      "icon": "🦴",
-      "equation": "3Ca + 2H₃PO₄ → Ca₃(PO₄)₂ + 3H₂"
-    },
-    {
-      "uid": "recipe-106",
-      "a": "Ag",
-      "b": "hno3",
-      "productId": "agno3",
-      "name": "Nitrato de prata",
-      "formula": "AgNO₃",
-      "icon": "🪞",
-      "equation": "3Ag + 4HNO₃ → 3AgNO₃ + NO + 2H₂O"
-    },
-    {
-      "uid": "recipe-107",
-      "a": "Cu",
-      "b": "hno3",
-      "productId": "cuno32",
-      "name": "Nitrato de cobre(II)",
-      "formula": "Cu(NO₃)₂",
-      "icon": "🟦",
-      "equation": "3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O"
-    },
-    {
-      "uid": "recipe-108",
-      "a": "na2co3",
-      "b": "silica",
-      "productId": "vidro",
-      "name": "Silicato de sódio",
-      "formula": "Na₂SiO₃",
-      "icon": "🪟",
-      "equation": "Na₂CO₃ + SiO₂ → Na₂SiO₃ + CO₂"
-    },
-    {
-      "uid": "recipe-109",
-      "a": "caco3",
-      "b": "silica",
-      "productId": "casio3",
-      "name": "Silicato de cálcio",
-      "formula": "CaSiO₃",
-      "icon": "🧱",
-      "equation": "CaCO₃ + SiO₂ → CaSiO₃ + CO₂"
-    },
-    {
-      "uid": "recipe-110",
-      "a": "caco3",
-      "b": "vidro",
-      "productId": "casio3",
-      "name": "Silicato de cálcio",
-      "formula": "CaSiO₃",
-      "icon": "🧱",
-      "equation": "CaCO₃ + Na₂SiO₃ → CaSiO₃ + Na₂CO₃"
-    },
-    {
-      "uid": "recipe-111",
-      "a": "Ag",
-      "b": "S",
-      "productId": "ag2s",
-      "name": "Sulfeto de prata",
-      "formula": "Ag₂S",
-      "icon": "🖤",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-112",
-      "a": "Hg",
-      "b": "S",
-      "productId": "hgs",
-      "name": "Cinábrio",
-      "formula": "HgS",
-      "icon": "🩸",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-113",
-      "a": "Pb",
-      "b": "S",
-      "productId": "pbs",
-      "name": "Galena",
-      "formula": "PbS",
-      "icon": "⛏️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-114",
-      "a": "Cd",
-      "b": "S",
-      "productId": "cds",
-      "name": "Amarelo de cádmio",
-      "formula": "CdS",
-      "icon": "🌻",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-115",
-      "a": "Zn",
-      "b": "S",
-      "productId": "zns",
-      "name": "Sulfeto de zinco",
-      "formula": "ZnS",
-      "icon": "🌟",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-116",
-      "a": "Fe",
-      "b": "S",
-      "productId": "fes",
-      "name": "Sulfeto de ferro(II)",
-      "formula": "FeS",
-      "icon": "⛓️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-117",
-      "a": "fes",
-      "b": "S",
-      "productId": "pirita",
-      "name": "Pirita",
-      "formula": "FeS₂",
-      "icon": "✨",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-118",
-      "a": "Cu",
-      "b": "S",
-      "productId": "cus",
-      "name": "Sulfeto de cobre(II)",
-      "formula": "CuS",
-      "icon": "🫐",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-119",
-      "a": "Mo",
-      "b": "S",
-      "productId": "mos2",
-      "name": "Dissulfeto de molibdênio",
-      "formula": "MoS₂",
-      "icon": "🛢️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-120",
-      "a": "Sb",
-      "b": "S",
-      "productId": "sb2s3",
-      "name": "Estibinita",
-      "formula": "Sb₂S₃",
-      "icon": "💫",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-121",
-      "a": "Ga",
-      "b": "n2",
-      "productId": "gan",
-      "name": "Nitreto de gálio",
-      "formula": "GaN",
-      "icon": "💡",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-122",
-      "a": "B",
-      "b": "n2",
-      "productId": "bn",
-      "name": "Nitreto de boro",
-      "formula": "BN",
-      "icon": "🔷",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-123",
-      "a": "Al",
-      "b": "n2",
-      "productId": "aln",
-      "name": "Nitreto de alumínio",
-      "formula": "AlN",
-      "icon": "🧱",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-124",
-      "a": "C",
-      "b": "W",
-      "productId": "wc",
-      "name": "Carbeto de tungstênio",
-      "formula": "WC",
-      "icon": "🛠️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-125",
-      "a": "C",
-      "b": "Si",
-      "productId": "sic",
-      "name": "Carbeto de silício",
-      "formula": "SiC",
-      "icon": "🔸",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-126",
-      "a": "Ca",
-      "b": "C",
-      "productId": "cac2",
-      "name": "Carbeto de cálcio",
-      "formula": "CaC₂",
-      "icon": "🪔",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-127",
-      "a": "As",
-      "b": "Ga",
-      "productId": "gaas",
-      "name": "Arseneto de gálio",
-      "formula": "GaAs",
-      "icon": "📡",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-128",
-      "a": "In",
-      "b": "P",
-      "productId": "inp",
-      "name": "Fosfeto de índio",
-      "formula": "InP",
-      "icon": "📶",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-129",
-      "a": "Cd",
-      "b": "Te",
-      "productId": "cdte",
-      "name": "Telureto de cádmio",
-      "formula": "CdTe",
-      "icon": "🔆",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-130",
-      "a": "Cd",
-      "b": "Se",
-      "productId": "cdse",
-      "name": "Seleneto de cádmio",
-      "formula": "CdSe",
-      "icon": "🌈",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-131",
-      "a": "Se",
-      "b": "Zn",
-      "productId": "znse",
-      "name": "Seleneto de zinco",
-      "formula": "ZnSe",
-      "icon": "🔬",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-132",
-      "a": "cac2",
-      "b": "agua",
-      "productId": "c2h2",
-      "name": "Acetileno",
-      "formula": "C₂H₂",
-      "icon": "🔦",
-      "equation": "CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂"
-    },
-    {
-      "uid": "recipe-133",
-      "a": "c2h2",
-      "b": "h2",
-      "productId": "c2h4",
-      "name": "Eteno (etileno)",
-      "formula": "C₂H₄",
-      "icon": "🍏",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-134",
-      "a": "c2h4",
-      "b": "h2",
-      "productId": "c2h6",
-      "name": "Etano",
-      "formula": "C₂H₆",
-      "icon": "🕯️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-135",
-      "a": "c2h4",
-      "b": "agua",
-      "productId": "etanol",
-      "name": "Etanol",
-      "formula": "C₂H₅OH",
-      "icon": "🍺",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-136",
-      "a": "ch4",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": "CH₄ + 2O₂ → CO₂ + 2H₂O"
-    },
-    {
-      "uid": "recipe-137",
-      "a": "co",
-      "b": "h2",
-      "productId": "metanol",
-      "name": "Metanol",
-      "formula": "CH₃OH",
-      "icon": "🪵",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-138",
-      "a": "etanol",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O"
-    },
-    {
-      "uid": "recipe-139",
-      "a": "metanol",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": "2CH₃OH + 3O₂ → 2CO₂ + 4H₂O"
-    },
-    {
-      "uid": "recipe-140",
-      "a": "c2h2",
-      "b": "c2h2",
-      "productId": "benzeno",
-      "name": "Benzeno",
-      "formula": "C₆H₆",
-      "icon": "⬡",
-      "equation": "3C₂H₂ → C₆H₆"
-    },
-    {
-      "uid": "recipe-141",
-      "a": "ch4",
-      "b": "cl2",
-      "productId": "ch3cl",
-      "name": "Clorometano",
-      "formula": "CH₃Cl",
-      "icon": "☁️",
-      "equation": "CH₄ + Cl₂ → CH₃Cl + HCl"
-    },
-    {
-      "uid": "recipe-142",
-      "a": "nh3",
-      "b": "co2",
-      "productId": "ureia",
-      "name": "Ureia",
-      "formula": "CO(NH₂)₂",
-      "icon": "🌾",
-      "equation": "2NH₃ + CO₂ → CO(NH₂)₂ + H₂O"
-    },
-    {
-      "uid": "recipe-143",
-      "a": "Na",
-      "b": "Hg",
-      "productId": "namalgama",
-      "name": "Amálgama de sódio",
-      "formula": "Na–Hg",
-      "icon": "🔘",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-144",
-      "a": "ch3cl",
-      "b": "namalgama",
-      "productId": "dmhg",
-      "name": "Dimetilmercúrio",
-      "formula": "(CH₃)₂Hg",
-      "icon": "☠️",
-      "equation": "2CH₃Cl + 2Na + Hg → (CH₃)₂Hg + 2NaCl"
-    },
-    {
-      "uid": "recipe-145",
-      "a": "C",
-      "b": "Fe",
-      "productId": "aco",
-      "name": "Aço",
-      "formula": "Fe–C",
-      "icon": "⚙️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-146",
-      "a": "Cr",
-      "b": "Ni",
-      "productId": "nicromo",
-      "name": "Nicromo",
-      "formula": "Ni–Cr",
-      "icon": "🍞",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-147",
-      "a": "nicromo",
-      "b": "aco",
-      "productId": "inox",
-      "name": "Aço inoxidável",
-      "formula": "Fe–Cr–Ni",
-      "icon": "🍴",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-148",
-      "a": "Cr",
-      "b": "aco",
-      "productId": "inox",
-      "name": "Aço inoxidável",
-      "formula": "Fe–Cr–Ni",
-      "icon": "🍴",
-      "equation": "Fe–C + Cr → Aço inoxidável"
-    },
-    {
-      "uid": "recipe-149",
-      "a": "Cu",
-      "b": "Sn",
-      "productId": "bronze",
-      "name": "Bronze",
-      "formula": "Cu–Sn",
-      "icon": "🔔",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-150",
-      "a": "Cu",
-      "b": "Zn",
-      "productId": "latao",
-      "name": "Latão",
-      "formula": "Cu–Zn",
-      "icon": "🎺",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-151",
-      "a": "Au",
-      "b": "Cu",
-      "productId": "ourorose",
-      "name": "Ouro rosé",
-      "formula": "Au–Cu",
-      "icon": "🌹",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-152",
-      "a": "Au",
-      "b": "Pd",
-      "productId": "ourobranco",
-      "name": "Ouro branco",
-      "formula": "Au–Pd",
-      "icon": "💍",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-153",
-      "a": "Pb",
-      "b": "Sn",
-      "productId": "solda",
-      "name": "Solda",
-      "formula": "Sn–Pb",
-      "icon": "🔩",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-154",
-      "a": "Ni",
-      "b": "Ti",
-      "productId": "nitinol",
-      "name": "Nitinol",
-      "formula": "Ni–Ti",
-      "icon": "🦾",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-155",
-      "a": "Ir",
-      "b": "Pt",
-      "productId": "ptir",
-      "name": "Liga platina-irídio",
-      "formula": "Pt–Ir",
-      "icon": "📏",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-156",
-      "a": "Al",
-      "b": "Mg",
-      "productId": "magnalio",
-      "name": "Magnálio",
-      "formula": "Al–Mg",
-      "icon": "✈️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-157",
-      "a": "Al",
-      "b": "Sc",
-      "productId": "alsc",
-      "name": "Liga alumínio-escândio",
-      "formula": "Al–Sc",
-      "icon": "🚲",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-158",
-      "a": "Bi",
-      "b": "Sn",
-      "productId": "ligafusivel",
-      "name": "Liga fusível",
-      "formula": "Bi–Sn",
-      "icon": "🫠",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-159",
-      "a": "Cu",
-      "b": "Ni",
-      "productId": "cuproniquel",
-      "name": "Cuproníquel",
-      "formula": "Cu–Ni",
-      "icon": "🪙",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-160",
-      "a": "magnalio",
-      "b": "Cu",
-      "productId": "duralumin",
-      "name": "Duralumínio",
-      "formula": "Al–Cu–Mg",
-      "icon": "🛩️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-161",
-      "a": "Al",
-      "b": "Cu",
-      "productId": "duralumin",
-      "name": "Duralumínio",
-      "formula": "Al–Cu–Mg",
-      "icon": "🛩️",
-      "equation": "Al + Cu → Duralumínio"
-    },
-    {
-      "uid": "recipe-162",
-      "a": "Ag",
-      "b": "Cu",
-      "productId": "pratalei",
-      "name": "Prata de lei",
-      "formula": "Ag–Cu",
-      "icon": "🍽️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-163",
-      "a": "Ag",
-      "b": "Au",
-      "productId": "electrum",
-      "name": "Electrum",
-      "formula": "Au–Ag",
-      "icon": "🏺",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-164",
-      "a": "Au",
-      "b": "Hg",
-      "productId": "amalgama",
-      "name": "Amálgama de ouro",
-      "formula": "Au–Hg",
-      "icon": "🥈",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-165",
-      "a": "Fe",
-      "b": "Ni",
-      "productId": "invar",
-      "name": "Invar",
-      "formula": "Fe–Ni",
-      "icon": "🕰️",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-166",
-      "a": "Nb",
-      "b": "Ti",
-      "productId": "nbti",
-      "name": "Nióbio-titânio",
-      "formula": "Nb–Ti",
-      "icon": "🧲",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-167",
-      "a": "Be",
-      "b": "Cu",
-      "productId": "cube",
-      "name": "Cobre-berílio",
-      "formula": "Cu–Be",
-      "icon": "🔧",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-168",
-      "a": "K",
-      "b": "Na",
-      "productId": "nak",
-      "name": "Liga sódio-potássio",
-      "formula": "Na–K",
-      "icon": "🫗",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-169",
-      "a": "Pt",
-      "b": "Rh",
-      "productId": "ptrh",
-      "name": "Liga platina-ródio",
-      "formula": "Pt–Rh",
-      "icon": "🚗",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-170",
-      "a": "coo",
-      "b": "alumina",
-      "productId": "azulcobalto",
-      "name": "Azul de cobalto",
-      "formula": "CoAl₂O₄",
-      "icon": "🔷",
-      "equation": ""
-    },
-    {
-      "uid": "recipe-171",
-      "a": "nh3",
-      "b": "hno3",
-      "productId": "nh4no3",
-      "name": "Nitrato de amônio",
-      "formula": "NH₄NO₃",
-      "icon": "🌾",
-      "equation": "NH₃ + HNO₃ → NH₄NO₃"
-    },
-    {
-      "uid": "recipe-172",
-      "a": "hcl",
-      "b": "nahco3",
-      "productId": "sal",
-      "name": "Sal de cozinha",
-      "formula": "NaCl",
-      "icon": "🧂",
-      "equation": "HCl + NaHCO₃ → NaCl + CO₂ + H₂O"
-    },
-    {
-      "uid": "recipe-173",
-      "a": "caco3",
-      "b": "hcl",
-      "productId": "cacl2",
-      "name": "Cloreto de cálcio",
-      "formula": "CaCl₂",
-      "icon": "❄️",
-      "equation": "CaCO₃ + 2HCl → CaCl₂ + CO₂ + H₂O"
-    },
-    {
-      "uid": "recipe-174",
-      "a": "etanol",
-      "b": "acetico",
-      "productId": "acetatoetila",
-      "name": "Acetato de etila",
-      "formula": "CH₃COOC₂H₅",
-      "icon": "🍓",
-      "equation": "C₂H₅OH + CH₃COOH → CH₃COOC₂H₅ + H₂O"
-    },
-    {
-      "uid": "recipe-175",
-      "a": "hcl",
-      "b": "Mg",
-      "productId": "mgcl2",
-      "name": "Cloreto de magnésio",
-      "formula": "MgCl₂",
-      "icon": "🌊",
-      "equation": "Mg + 2HCl → MgCl₂ + H₂"
-    },
-    {
-      "uid": "recipe-176",
-      "a": "hcl",
-      "b": "Zn",
-      "productId": "zncl2",
-      "name": "Cloreto de zinco",
-      "formula": "ZnCl₂",
-      "icon": "🔩",
-      "equation": "Zn + 2HCl → ZnCl₂ + H₂"
-    },
-    {
-      "uid": "recipe-177",
-      "a": "hcl",
-      "b": "Fe",
-      "productId": "fecl2",
-      "name": "Cloreto de ferro(II)",
-      "formula": "FeCl₂",
-      "icon": "🟩",
-      "equation": "Fe + 2HCl → FeCl₂ + H₂"
-    },
-    {
-      "uid": "recipe-178",
-      "a": "hcl",
-      "b": "Al",
-      "productId": "alcl3",
-      "name": "Cloreto de alumínio",
-      "formula": "AlCl₃",
-      "icon": "🧊",
-      "equation": "2Al + 6HCl → 2AlCl₃ + 3H₂"
-    },
-    {
-      "uid": "recipe-179",
-      "a": "hcl",
-      "b": "Ca",
-      "productId": "cacl2",
-      "name": "Cloreto de cálcio",
-      "formula": "CaCl₂",
-      "icon": "❄️",
-      "equation": "Ca + 2HCl → CaCl₂ + H₂"
-    },
-    {
-      "uid": "recipe-180",
-      "a": "hcl",
-      "b": "koh",
-      "productId": "kcl",
-      "name": "Cloreto de potássio",
-      "formula": "KCl",
-      "icon": "🍌",
-      "equation": "HCl + KOH → KCl + H₂O"
-    },
-    {
-      "uid": "recipe-181",
-      "a": "hcl",
-      "b": "caoh2",
-      "productId": "cacl2",
-      "name": "Cloreto de cálcio",
-      "formula": "CaCl₂",
-      "icon": "❄️",
-      "equation": "Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O"
-    },
-    {
-      "uid": "recipe-182",
-      "a": "hcl",
-      "b": "baoh2",
-      "productId": "bacl2",
-      "name": "Cloreto de bário",
-      "formula": "BaCl₂",
-      "icon": "🧪",
-      "equation": "Ba(OH)₂ + 2HCl → BaCl₂ + 2H₂O"
-    },
-    {
-      "uid": "recipe-183",
-      "a": "hno3",
-      "b": "naoh",
-      "productId": "nano3",
-      "name": "Nitrato de sódio",
-      "formula": "NaNO₃",
-      "icon": "🧂",
-      "equation": "HNO₃ + NaOH → NaNO₃ + H₂O"
-    },
-    {
-      "uid": "recipe-184",
-      "a": "hno3",
-      "b": "koh",
-      "productId": "kno3",
-      "name": "Nitrato de potássio",
-      "formula": "KNO₃",
-      "icon": "✨",
-      "equation": "HNO₃ + KOH → KNO₃ + H₂O"
-    },
-    {
-      "uid": "recipe-185",
-      "a": "h2so4",
-      "b": "koh",
-      "productId": "k2so4",
-      "name": "Sulfato de potássio",
-      "formula": "K₂SO₄",
-      "icon": "🌾",
-      "equation": "H₂SO₄ + 2KOH → K₂SO₄ + 2H₂O"
-    },
-    {
-      "uid": "recipe-186",
-      "a": "h3po4",
-      "b": "naoh",
-      "productId": "na3po4",
-      "name": "Fosfato de sódio",
-      "formula": "Na₃PO₄",
-      "icon": "⚪",
-      "equation": "H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O"
-    },
-    {
-      "uid": "recipe-187",
-      "a": "h2so4",
-      "b": "baoh2",
-      "productId": "baso4",
-      "name": "Sulfato de bário",
-      "formula": "BaSO₄",
-      "icon": "🩻",
-      "equation": "H₂SO₄ + Ba(OH)₂ → BaSO₄↓ + 2H₂O"
-    },
-    {
-      "uid": "recipe-188",
-      "a": "h2so4",
-      "b": "caoh2",
-      "productId": "caso4",
-      "name": "Sulfato de cálcio",
-      "formula": "CaSO₄",
-      "icon": "🧱",
-      "equation": "H₂SO₄ + Ca(OH)₂ → CaSO₄ + 2H₂O"
-    },
-    {
-      "uid": "recipe-189",
-      "a": "h2so4",
-      "b": "nahco3",
-      "productId": "na2so4",
-      "name": "Sulfato de sódio",
-      "formula": "Na₂SO₄",
-      "icon": "🧺",
-      "equation": "H₂SO₄ + 2NaHCO₃ → Na₂SO₄ + 2CO₂ + 2H₂O"
-    },
-    {
-      "uid": "recipe-190",
-      "a": "h2co3",
-      "b": "naoh",
-      "productId": "nahco3",
-      "name": "Bicarbonato de sódio",
-      "formula": "NaHCO₃",
-      "icon": "🍰",
-      "equation": "H₂CO₃ + NaOH → NaHCO₃ + H₂O"
-    },
-    {
-      "uid": "recipe-191",
-      "a": "nh3",
-      "b": "h2so4",
-      "productId": "amonsulfato",
-      "name": "Sulfato de amônio",
-      "formula": "(NH₄)₂SO₄",
-      "icon": "🌾",
-      "equation": "2NH₃ + H₂SO₄ → (NH₄)₂SO₄"
-    },
-    {
-      "uid": "recipe-192",
-      "a": "nh4cl",
-      "b": "naoh",
-      "productId": "nh3",
-      "name": "Amônia",
-      "formula": "NH₃",
-      "icon": "🧴",
-      "equation": "NH₄Cl + NaOH → NH₃ + NaCl + H₂O"
-    },
-    {
-      "uid": "recipe-193",
-      "a": "na2co3",
-      "b": "hcl",
-      "productId": "nahco3",
-      "name": "Bicarbonato de sódio",
-      "formula": "NaHCO₃",
-      "icon": "🍰",
-      "equation": "Na₂CO₃ + HCl → NaHCO₃ + NaCl"
-    },
-    {
-      "uid": "recipe-194",
-      "a": "nahco3",
-      "b": "nahco3",
-      "productId": "na2co3",
-      "name": "Carbonato de sódio",
-      "formula": "Na₂CO₃",
-      "icon": "🥣",
-      "equation": "2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O"
-    },
-    {
-      "uid": "recipe-195",
-      "a": "h2o2",
-      "b": "h2o2",
-      "productId": "agua",
-      "name": "Água",
-      "formula": "H₂O",
-      "icon": "💧",
-      "equation": "2H₂O₂ → 2H₂O + O₂"
-    },
-    {
-      "uid": "recipe-196",
-      "a": "bacl2",
-      "b": "na2so4",
-      "productId": "baso4",
-      "name": "Sulfato de bário",
-      "formula": "BaSO₄",
-      "icon": "🩻",
-      "equation": "BaCl₂ + Na₂SO₄ → BaSO₄↓ + 2NaCl"
-    },
-    {
-      "uid": "recipe-197",
-      "a": "agno3",
-      "b": "sal",
-      "productId": "agcl",
-      "name": "Cloreto de prata",
-      "formula": "AgCl",
-      "icon": "⚪",
-      "equation": "AgNO₃ + NaCl → AgCl↓ + NaNO₃"
-    },
-    {
-      "uid": "recipe-198",
-      "a": "cuso4",
-      "b": "naoh",
-      "productId": "cuoh2",
-      "name": "Hidróxido de cobre(II)",
-      "formula": "Cu(OH)₂",
-      "icon": "🔵",
-      "equation": "CuSO₄ + 2NaOH → Cu(OH)₂↓ + Na₂SO₄"
-    },
-    {
-      "uid": "recipe-199",
-      "a": "feso4",
-      "b": "naoh",
-      "productId": "feoh2",
-      "name": "Hidróxido de ferro(II)",
-      "formula": "Fe(OH)₂",
-      "icon": "🟢",
-      "equation": "FeSO₄ + 2NaOH → Fe(OH)₂↓ + Na₂SO₄"
-    },
-    {
-      "uid": "recipe-200",
-      "a": "fecl3",
-      "b": "naoh",
-      "productId": "feoh3",
-      "name": "Hidróxido de ferro(III)",
-      "formula": "Fe(OH)₃",
-      "icon": "🟤",
-      "equation": "FeCl₃ + 3NaOH → Fe(OH)₃↓ + 3NaCl"
-    },
-    {
-      "uid": "recipe-201",
-      "a": "alcl3",
-      "b": "naoh",
-      "productId": "aloh3",
-      "name": "Hidróxido de alumínio",
-      "formula": "Al(OH)₃",
-      "icon": "⚪",
-      "equation": "AlCl₃ + 3NaOH → Al(OH)₃↓ + 3NaCl"
-    },
-    {
-      "uid": "recipe-202",
-      "a": "znso4",
-      "b": "naoh",
-      "productId": "znoh2",
-      "name": "Hidróxido de zinco",
-      "formula": "Zn(OH)₂",
-      "icon": "⚪",
-      "equation": "ZnSO₄ + 2NaOH → Zn(OH)₂↓ + Na₂SO₄"
-    },
-    {
-      "uid": "recipe-203",
-      "a": "mgcl2",
-      "b": "na2co3",
-      "productId": "mgco3",
-      "name": "Carbonato de magnésio",
-      "formula": "MgCO₃",
-      "icon": "⚪",
-      "equation": "MgCl₂ + Na₂CO₃ → MgCO₃↓ + 2NaCl"
-    },
-    {
-      "uid": "recipe-204",
-      "a": "cacl2",
-      "b": "na2co3",
-      "productId": "caco3",
-      "name": "Calcário",
-      "formula": "CaCO₃",
-      "icon": "🐚",
-      "equation": "CaCl₂ + Na₂CO₃ → CaCO₃↓ + 2NaCl"
-    },
-    {
-      "uid": "recipe-205",
-      "a": "caso4",
-      "b": "na2co3",
-      "productId": "caco3",
-      "name": "Calcário",
-      "formula": "CaCO₃",
-      "icon": "🐚",
-      "equation": "CaSO₄ + Na₂CO₃ → CaCO₃↓ + Na₂SO₄"
-    },
-    {
-      "uid": "recipe-206",
-      "a": "cuso4",
-      "b": "bacl2",
-      "productId": "baso4",
-      "name": "Sulfato de bário",
-      "formula": "BaSO₄",
-      "icon": "🩻",
-      "equation": "CuSO₄ + BaCl₂ → BaSO₄↓ + CuCl₂"
-    },
-    {
-      "uid": "recipe-207",
-      "a": "c2h2",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": "2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O"
-    },
-    {
-      "uid": "recipe-208",
-      "a": "c2h4",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": "C₂H₄ + 3O₂ → 2CO₂ + 2H₂O"
-    },
-    {
-      "uid": "recipe-209",
-      "a": "c2h6",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O"
-    },
-    {
-      "uid": "recipe-210",
-      "a": "hcho",
-      "b": "o2",
-      "productId": "co2",
-      "name": "Dióxido de carbono",
-      "formula": "CO₂",
-      "icon": "🌫️",
-      "equation": "HCHO + O₂ → CO₂ + H₂O"
-    },
-    {
-      "uid": "recipe-211",
-      "a": "Ca",
-      "b": "S",
-      "productId": "cas",
-      "name": "Sulfeto de cálcio",
-      "formula": "CaS",
-      "icon": "💎",
-      "equation": "Ca + S → CaS"
-    },
-    {
-      "uid": "recipe-212",
-      "a": "Mg",
-      "b": "S",
-      "productId": "mgs",
-      "name": "Sulfeto de magnésio",
-      "formula": "MgS",
-      "icon": "🌟",
-      "equation": "Mg + S → MgS"
-    },
-    {
-      "uid": "recipe-213",
-      "a": "Al",
-      "b": "S",
-      "productId": "al2s3",
-      "name": "Sulfeto de alumínio",
-      "formula": "Al₂S₃",
-      "icon": "🟨",
-      "equation": "2Al + 3S → Al₂S₃"
-    },
-    {
-      "uid": "recipe-214",
-      "a": "Na",
-      "b": "S",
-      "productId": "na2s",
-      "name": "Sulfeto de sódio",
-      "formula": "Na₂S",
-      "icon": "🧂",
-      "equation": "2Na + S → Na₂S"
-    },
-    {
-      "uid": "recipe-215",
-      "a": "Li",
-      "b": "n2",
-      "productId": "li3n",
-      "name": "Nitreto de lítio",
-      "formula": "Li₃N",
-      "icon": "🔋",
-      "equation": "6Li + N₂ → 2Li₃N"
-    },
-    {
-      "uid": "recipe-216",
-      "a": "Mg",
-      "b": "n2",
-      "productId": "mg3n2",
-      "name": "Nitreto de magnésio",
-      "formula": "Mg₃N₂",
-      "icon": "✨",
-      "equation": "3Mg + N₂ → Mg₃N₂"
-    },
-    {
-      "uid": "recipe-217",
-      "a": "Ca",
-      "b": "n2",
-      "productId": "ca3n2",
-      "name": "Nitreto de cálcio",
-      "formula": "Ca₃N₂",
-      "icon": "🧱",
-      "equation": "3Ca + N₂ → Ca₃N₂"
-    },
-    {
-      "uid": "recipe-218",
-      "a": "Si",
-      "b": "cl2",
-      "productId": "sicl4",
-      "name": "Tetracloreto de silício",
-      "formula": "SiCl₄",
-      "icon": "🌫️",
-      "equation": "Si + 2Cl₂ → SiCl₄"
-    },
-    {
-      "uid": "recipe-219",
-      "a": "P",
-      "b": "cl2",
-      "productId": "pcl3",
-      "name": "Tricloreto de fósforo",
-      "formula": "PCl₃",
-      "icon": "⚗️",
-      "equation": "P₄ + 6Cl₂ → 4PCl₃"
-    },
-    {
-      "uid": "recipe-220",
-      "a": "B",
-      "b": "f2",
-      "productId": "bf3",
-      "name": "Trifluoreto de boro",
-      "formula": "BF₃",
-      "icon": "🧪",
-      "equation": "2B + 3F₂ → 2BF₃"
-    },
-    {
-      "uid": "recipe-221",
-      "a": "C",
-      "b": "cl2",
-      "productId": "ccl4",
-      "name": "Tetracloreto de carbono",
-      "formula": "CCl₄",
-      "icon": "🧪",
-      "equation": "C + 2Cl₂ → CCl₄"
-    },
-    {
-      "uid": "recipe-222",
-      "a": "Zn",
-      "b": "cuso4",
-      "productId": "znso4",
-      "name": "Sulfato de zinco",
-      "formula": "ZnSO₄",
-      "icon": "💧",
-      "equation": "Zn + CuSO₄ → ZnSO₄ + Cu"
-    },
-    {
-      "uid": "recipe-223",
-      "a": "Fe",
-      "b": "cuso4",
-      "productId": "feso4",
-      "name": "Sulfato de ferro(II)",
-      "formula": "FeSO₄",
-      "icon": "🟩",
-      "equation": "Fe + CuSO₄ → FeSO₄ + Cu"
-    },
-    {
-      "uid": "recipe-224",
-      "a": "Cu",
-      "b": "agno3",
-      "productId": "cuno32",
-      "name": "Nitrato de cobre(II)",
-      "formula": "Cu(NO₃)₂",
-      "icon": "🟦",
-      "equation": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag"
-    },
-    {
-      "uid": "recipe-225",
-      "a": "cuo",
-      "b": "h2",
-      "productId": "Cu",
-      "name": "Cobre",
-      "formula": "nº 29",
-      "icon": "Cu",
-      "equation": "CuO + H₂ → Cu + H₂O"
-    },
-    {
-      "uid": "recipe-226",
-      "a": "ferrugem",
-      "b": "co",
-      "productId": "Fe",
-      "name": "Ferro",
-      "formula": "nº 26",
-      "icon": "Fe",
-      "equation": "Fe₂O₃ + 3CO → 2Fe + 3CO₂"
-    },
-    {
-      "uid": "recipe-227",
-      "a": "ferrugem",
-      "b": "C",
-      "productId": "Fe",
-      "name": "Ferro",
-      "formula": "nº 26",
-      "icon": "Fe",
-      "equation": "2Fe₂O₃ + 3C → 4Fe + 3CO₂"
-    },
-    {
-      "uid": "recipe-228",
-      "a": "Hf",
-      "b": "o2",
-      "productId": "hfo2",
-      "name": "Óxido de háfnio",
-      "formula": "HfO₂",
-      "icon": "💠",
-      "equation": "Hf + O₂ → HfO₂"
-    },
-    {
-      "uid": "recipe-229",
-      "a": "Ta",
-      "b": "o2",
-      "productId": "ta2o5",
-      "name": "Pentóxido de tântalo",
-      "formula": "Ta₂O₅",
-      "icon": "💎",
-      "equation": "4Ta + 5O₂ → 2Ta₂O₅"
-    },
-    {
-      "uid": "recipe-230",
-      "a": "La",
-      "b": "o2",
-      "productId": "la2o3",
-      "name": "Óxido de lantânio",
-      "formula": "La₂O₃",
-      "icon": "🔆",
-      "equation": "4La + 3O₂ → 2La₂O₃"
-    },
-    {
-      "uid": "recipe-231",
-      "a": "Ce",
-      "b": "o2",
-      "productId": "ceo2",
-      "name": "Dióxido de cério",
-      "formula": "CeO₂",
-      "icon": "✨",
-      "equation": "Ce + O₂ → CeO₂"
-    },
-    {
-      "uid": "recipe-232",
-      "a": "Nd",
-      "b": "o2",
-      "productId": "nd2o3",
-      "name": "Óxido de neodímio",
-      "formula": "Nd₂O₃",
-      "icon": "🟪",
-      "equation": "4Nd + 3O₂ → 2Nd₂O₃"
-    },
-    {
-      "uid": "recipe-233",
-      "a": "W",
-      "b": "f2",
-      "productId": "wf6",
-      "name": "Hexafluoreto de tungstênio",
-      "formula": "WF₆",
-      "icon": "🧪",
-      "equation": "W + 3F₂ → WF₆"
+  "recipes": {
+    "class": {
+      "acido": [
+        {
+          "uid": "recipe-14",
+          "a": "h2",
+          "b": "cl2",
+          "productId": "hcl",
+          "name": "Ácido clorídrico",
+          "formula": "HCl",
+          "icon": "🧪",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-15",
+          "a": "h2",
+          "b": "f2",
+          "productId": "hf",
+          "name": "Ácido fluorídrico",
+          "formula": "HF",
+          "icon": "🫗",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-16",
+          "a": "h2",
+          "b": "br2",
+          "productId": "hbr",
+          "name": "Ácido bromídrico",
+          "formula": "HBr",
+          "icon": "🟠",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-17",
+          "a": "h2",
+          "b": "i2",
+          "productId": "hi",
+          "name": "Ácido iodídrico",
+          "formula": "HI",
+          "icon": "🔮",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-55",
+          "a": "agua",
+          "b": "so3",
+          "productId": "h2so4",
+          "name": "Ácido sulfúrico",
+          "formula": "H₂SO₄",
+          "icon": "⚗️",
+          "equation": "H₂O + SO₃ → H₂SO₄"
+        },
+        {
+          "uid": "recipe-56",
+          "a": "agua",
+          "b": "so2",
+          "productId": "h2so3",
+          "name": "Ácido sulfuroso",
+          "formula": "H₂SO₃",
+          "icon": "🌧️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-57",
+          "a": "agua",
+          "b": "co2",
+          "productId": "h2co3",
+          "name": "Ácido carbônico",
+          "formula": "H₂CO₃",
+          "icon": "🥂",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-58",
+          "a": "agua",
+          "b": "no2",
+          "productId": "hno3",
+          "name": "Ácido nítrico",
+          "formula": "HNO₃",
+          "icon": "🧫",
+          "equation": "3NO₂ + H₂O → 2HNO₃ + NO"
+        },
+        {
+          "uid": "recipe-59",
+          "a": "agua",
+          "b": "p2o5",
+          "productId": "h3po4",
+          "name": "Ácido fosfórico",
+          "formula": "H₃PO₄",
+          "icon": "🥤",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-60",
+          "a": "agua",
+          "b": "b2o3",
+          "productId": "h3bo3",
+          "name": "Ácido bórico",
+          "formula": "H₃BO₃",
+          "icon": "👁️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-61",
+          "a": "agua",
+          "b": "wo3",
+          "productId": "h2wo4",
+          "name": "Ácido túngstico",
+          "formula": "H₂WO₄",
+          "icon": "🔦",
+          "equation": ""
+        }
+      ],
+      "metais": [
+        {
+          "uid": "recipe-143",
+          "a": "Na",
+          "b": "Hg",
+          "productId": "namalgama",
+          "name": "Amálgama de sódio",
+          "formula": "Na–Hg",
+          "icon": "🔘",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-145",
+          "a": "C",
+          "b": "Fe",
+          "productId": "aco",
+          "name": "Aço",
+          "formula": "Fe–C",
+          "icon": "⚙️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-146",
+          "a": "Cr",
+          "b": "Ni",
+          "productId": "nicromo",
+          "name": "Nicromo",
+          "formula": "Ni–Cr",
+          "icon": "🍞",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-147",
+          "a": "nicromo",
+          "b": "aco",
+          "productId": "inox",
+          "name": "Aço inoxidável",
+          "formula": "Fe–Cr–Ni",
+          "icon": "🍴",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-148",
+          "a": "Cr",
+          "b": "aco",
+          "productId": "inox",
+          "name": "Aço inoxidável",
+          "formula": "Fe–Cr–Ni",
+          "icon": "🍴",
+          "equation": "Fe–C + Cr → Aço inoxidável"
+        },
+        {
+          "uid": "recipe-149",
+          "a": "Cu",
+          "b": "Sn",
+          "productId": "bronze",
+          "name": "Bronze",
+          "formula": "Cu–Sn",
+          "icon": "🔔",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-150",
+          "a": "Cu",
+          "b": "Zn",
+          "productId": "latao",
+          "name": "Latão",
+          "formula": "Cu–Zn",
+          "icon": "🎺",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-151",
+          "a": "Au",
+          "b": "Cu",
+          "productId": "ourorose",
+          "name": "Ouro rosé",
+          "formula": "Au–Cu",
+          "icon": "🌹",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-152",
+          "a": "Au",
+          "b": "Pd",
+          "productId": "ourobranco",
+          "name": "Ouro branco",
+          "formula": "Au–Pd",
+          "icon": "💍",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-153",
+          "a": "Pb",
+          "b": "Sn",
+          "productId": "solda",
+          "name": "Solda",
+          "formula": "Sn–Pb",
+          "icon": "🔩",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-154",
+          "a": "Ni",
+          "b": "Ti",
+          "productId": "nitinol",
+          "name": "Nitinol",
+          "formula": "Ni–Ti",
+          "icon": "🦾",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-155",
+          "a": "Ir",
+          "b": "Pt",
+          "productId": "ptir",
+          "name": "Liga platina-irídio",
+          "formula": "Pt–Ir",
+          "icon": "📏",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-156",
+          "a": "Al",
+          "b": "Mg",
+          "productId": "magnalio",
+          "name": "Magnálio",
+          "formula": "Al–Mg",
+          "icon": "✈️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-157",
+          "a": "Al",
+          "b": "Sc",
+          "productId": "alsc",
+          "name": "Liga alumínio-escândio",
+          "formula": "Al–Sc",
+          "icon": "🚲",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-158",
+          "a": "Bi",
+          "b": "Sn",
+          "productId": "ligafusivel",
+          "name": "Liga fusível",
+          "formula": "Bi–Sn",
+          "icon": "🫠",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-159",
+          "a": "Cu",
+          "b": "Ni",
+          "productId": "cuproniquel",
+          "name": "Cuproníquel",
+          "formula": "Cu–Ni",
+          "icon": "🪙",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-160",
+          "a": "magnalio",
+          "b": "Cu",
+          "productId": "duralumin",
+          "name": "Duralumínio",
+          "formula": "Al–Cu–Mg",
+          "icon": "🛩️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-161",
+          "a": "Al",
+          "b": "Cu",
+          "productId": "duralumin",
+          "name": "Duralumínio",
+          "formula": "Al–Cu–Mg",
+          "icon": "🛩️",
+          "equation": "Al + Cu → Duralumínio"
+        },
+        {
+          "uid": "recipe-162",
+          "a": "Ag",
+          "b": "Cu",
+          "productId": "pratalei",
+          "name": "Prata de lei",
+          "formula": "Ag–Cu",
+          "icon": "🍽️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-163",
+          "a": "Ag",
+          "b": "Au",
+          "productId": "electrum",
+          "name": "Electrum",
+          "formula": "Au–Ag",
+          "icon": "🏺",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-164",
+          "a": "Au",
+          "b": "Hg",
+          "productId": "amalgama",
+          "name": "Amálgama de ouro",
+          "formula": "Au–Hg",
+          "icon": "🥈",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-165",
+          "a": "Fe",
+          "b": "Ni",
+          "productId": "invar",
+          "name": "Invar",
+          "formula": "Fe–Ni",
+          "icon": "🕰️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-166",
+          "a": "Nb",
+          "b": "Ti",
+          "productId": "nbti",
+          "name": "Nióbio-titânio",
+          "formula": "Nb–Ti",
+          "icon": "🧲",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-167",
+          "a": "Be",
+          "b": "Cu",
+          "productId": "cube",
+          "name": "Cobre-berílio",
+          "formula": "Cu–Be",
+          "icon": "🔧",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-168",
+          "a": "K",
+          "b": "Na",
+          "productId": "nak",
+          "name": "Liga sódio-potássio",
+          "formula": "Na–K",
+          "icon": "🫗",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-169",
+          "a": "Pt",
+          "b": "Rh",
+          "productId": "ptrh",
+          "name": "Liga platina-ródio",
+          "formula": "Pt–Rh",
+          "icon": "🚗",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-225",
+          "a": "cuo",
+          "b": "h2",
+          "productId": "Cu",
+          "name": "Cobre",
+          "formula": "nº 29",
+          "icon": "Cu",
+          "equation": "CuO + H₂ → Cu + H₂O"
+        },
+        {
+          "uid": "recipe-226",
+          "a": "ferrugem",
+          "b": "co",
+          "productId": "Fe",
+          "name": "Ferro",
+          "formula": "nº 26",
+          "icon": "Fe",
+          "equation": "Fe₂O₃ + 3CO → 2Fe + 3CO₂"
+        },
+        {
+          "uid": "recipe-227",
+          "a": "ferrugem",
+          "b": "C",
+          "productId": "Fe",
+          "name": "Ferro",
+          "formula": "nº 26",
+          "icon": "Fe",
+          "equation": "2Fe₂O₃ + 3C → 4Fe + 3CO₂"
+        }
+      ],
+      "outros": [
+        {
+          "uid": "recipe-1",
+          "a": "H",
+          "b": "H",
+          "productId": "h2",
+          "name": "Gás hidrogênio",
+          "formula": "H₂",
+          "icon": "🎈",
+          "equation": "2H → H₂"
+        },
+        {
+          "uid": "recipe-2",
+          "a": "O",
+          "b": "O",
+          "productId": "o2",
+          "name": "Gás oxigênio",
+          "formula": "O₂",
+          "icon": "🫧",
+          "equation": "2O → O₂"
+        },
+        {
+          "uid": "recipe-3",
+          "a": "N",
+          "b": "N",
+          "productId": "n2",
+          "name": "Gás nitrogênio",
+          "formula": "N₂",
+          "icon": "💨",
+          "equation": "2N → N₂"
+        },
+        {
+          "uid": "recipe-4",
+          "a": "F",
+          "b": "F",
+          "productId": "f2",
+          "name": "Gás flúor",
+          "formula": "F₂",
+          "icon": "🟡",
+          "equation": "2F → F₂"
+        },
+        {
+          "uid": "recipe-5",
+          "a": "Cl",
+          "b": "Cl",
+          "productId": "cl2",
+          "name": "Gás cloro",
+          "formula": "Cl₂",
+          "icon": "🟢",
+          "equation": "2Cl → Cl₂"
+        },
+        {
+          "uid": "recipe-6",
+          "a": "Br",
+          "b": "Br",
+          "productId": "br2",
+          "name": "Bromo líquido",
+          "formula": "Br₂",
+          "icon": "🟤",
+          "equation": "2Br → Br₂"
+        },
+        {
+          "uid": "recipe-7",
+          "a": "I",
+          "b": "I",
+          "productId": "i2",
+          "name": "Iodo sólido",
+          "formula": "I₂",
+          "icon": "🟣",
+          "equation": "2I → I₂"
+        },
+        {
+          "uid": "recipe-8",
+          "a": "O",
+          "b": "o2",
+          "productId": "o3",
+          "name": "Ozônio",
+          "formula": "O₃",
+          "icon": "🌐",
+          "equation": "O + O₂ → O₃"
+        },
+        {
+          "uid": "recipe-9",
+          "a": "h2",
+          "b": "o2",
+          "productId": "agua",
+          "name": "Água",
+          "formula": "H₂O",
+          "icon": "💧",
+          "equation": "2H₂ + O₂ → 2H₂O"
+        },
+        {
+          "uid": "recipe-10",
+          "a": "h2",
+          "b": "O",
+          "productId": "agua",
+          "name": "Água",
+          "formula": "H₂O",
+          "icon": "💧",
+          "equation": "2H₂ + O₂ → 2H₂O"
+        },
+        {
+          "uid": "recipe-11",
+          "a": "agua",
+          "b": "o2",
+          "productId": "h2o2",
+          "name": "Água oxigenada",
+          "formula": "H₂O₂",
+          "icon": "🩹",
+          "equation": "2H₂O + O₂ → 2H₂O₂"
+        },
+        {
+          "uid": "recipe-12",
+          "a": "agua",
+          "b": "O",
+          "productId": "h2o2",
+          "name": "Água oxigenada",
+          "formula": "H₂O₂",
+          "icon": "🩹",
+          "equation": "H₂O + O → H₂O₂"
+        },
+        {
+          "uid": "recipe-13",
+          "a": "h2",
+          "b": "n2",
+          "productId": "nh3",
+          "name": "Amônia",
+          "formula": "NH₃",
+          "icon": "🧴",
+          "equation": "3H₂ + N₂ → 2NH₃"
+        },
+        {
+          "uid": "recipe-18",
+          "a": "C",
+          "b": "h2",
+          "productId": "ch4",
+          "name": "Metano",
+          "formula": "CH₄",
+          "icon": "🔥",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-19",
+          "a": "h2",
+          "b": "S",
+          "productId": "h2s",
+          "name": "Gás sulfídrico",
+          "formula": "H₂S",
+          "icon": "🥚",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-20",
+          "a": "h2",
+          "b": "Li",
+          "productId": "lih",
+          "name": "Hidreto de lítio",
+          "formula": "LiH",
+          "icon": "🔋",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-21",
+          "a": "h2",
+          "b": "Na",
+          "productId": "nah",
+          "name": "Hidreto de sódio",
+          "formula": "NaH",
+          "icon": "⚪",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-22",
+          "a": "h2",
+          "b": "Ca",
+          "productId": "cah2",
+          "name": "Hidreto de cálcio",
+          "formula": "CaH₂",
+          "icon": "🏔️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-23",
+          "a": "C",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-24",
+          "a": "C",
+          "b": "co2",
+          "productId": "co",
+          "name": "Monóxido de carbono",
+          "formula": "CO",
+          "icon": "☁️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-25",
+          "a": "co",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-26",
+          "a": "S",
+          "b": "o2",
+          "productId": "so2",
+          "name": "Dióxido de enxofre",
+          "formula": "SO₂",
+          "icon": "🌋",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-27",
+          "a": "so2",
+          "b": "o2",
+          "productId": "so3",
+          "name": "Trióxido de enxofre",
+          "formula": "SO₃",
+          "icon": "🟨",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-28",
+          "a": "n2",
+          "b": "o2",
+          "productId": "no",
+          "name": "Monóxido de nitrogênio",
+          "formula": "NO",
+          "icon": "🟠",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-29",
+          "a": "no",
+          "b": "o2",
+          "productId": "no2",
+          "name": "Dióxido de nitrogênio",
+          "formula": "NO₂",
+          "icon": "🟤",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-30",
+          "a": "Ca",
+          "b": "o2",
+          "productId": "cao",
+          "name": "Cal virgem",
+          "formula": "CaO",
+          "icon": "🪨",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-31",
+          "a": "Mg",
+          "b": "o2",
+          "productId": "mgo",
+          "name": "Óxido de magnésio",
+          "formula": "MgO",
+          "icon": "✨",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-32",
+          "a": "Fe",
+          "b": "o2",
+          "productId": "ferrugem",
+          "name": "Ferrugem (Óxido de ferro III)",
+          "formula": "Fe₂O₃",
+          "icon": "🟫",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-33",
+          "a": "Al",
+          "b": "o2",
+          "productId": "alumina",
+          "name": "Alumina",
+          "formula": "Al₂O₃",
+          "icon": "💎",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-34",
+          "a": "Si",
+          "b": "o2",
+          "productId": "silica",
+          "name": "Sílica",
+          "formula": "SiO₂",
+          "icon": "🏖️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-35",
+          "a": "Zn",
+          "b": "o2",
+          "productId": "zno",
+          "name": "Óxido de zinco",
+          "formula": "ZnO",
+          "icon": "☀️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-36",
+          "a": "Ti",
+          "b": "o2",
+          "productId": "tio2",
+          "name": "Dióxido de titânio",
+          "formula": "TiO₂",
+          "icon": "🤍",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-37",
+          "a": "Cu",
+          "b": "o2",
+          "productId": "cuo",
+          "name": "Óxido de cobre(II)",
+          "formula": "CuO",
+          "icon": "⚫",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-38",
+          "a": "Cr",
+          "b": "o2",
+          "productId": "cr2o3",
+          "name": "Óxido de cromo(III)",
+          "formula": "Cr₂O₃",
+          "icon": "🌿",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-39",
+          "a": "Mn",
+          "b": "o2",
+          "productId": "mno2",
+          "name": "Dióxido de manganês",
+          "formula": "MnO₂",
+          "icon": "🔋",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-40",
+          "a": "P",
+          "b": "o2",
+          "productId": "p2o5",
+          "name": "Pentóxido de fósforo",
+          "formula": "P₄O₁₀",
+          "icon": "⬜",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-41",
+          "a": "Zr",
+          "b": "o2",
+          "productId": "zro2",
+          "name": "Zircônia",
+          "formula": "ZrO₂",
+          "icon": "💠",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-42",
+          "a": "Co",
+          "b": "o2",
+          "productId": "coo",
+          "name": "Óxido de cobalto(II)",
+          "formula": "CoO",
+          "icon": "🔹",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-43",
+          "a": "Ni",
+          "b": "o2",
+          "productId": "nio",
+          "name": "Óxido de níquel(II)",
+          "formula": "NiO",
+          "icon": "🟩",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-44",
+          "a": "Na",
+          "b": "o2",
+          "productId": "na2o",
+          "name": "Óxido de sódio",
+          "formula": "Na₂O",
+          "icon": "🔆",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-45",
+          "a": "K",
+          "b": "o2",
+          "productId": "k2o",
+          "name": "Óxido de potássio",
+          "formula": "K₂O",
+          "icon": "🌱",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-46",
+          "a": "Li",
+          "b": "o2",
+          "productId": "li2o",
+          "name": "Óxido de lítio",
+          "formula": "Li₂O",
+          "icon": "🪫",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-47",
+          "a": "Ba",
+          "b": "o2",
+          "productId": "bao",
+          "name": "Óxido de bário",
+          "formula": "BaO",
+          "icon": "🎇",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-48",
+          "a": "B",
+          "b": "o2",
+          "productId": "b2o3",
+          "name": "Óxido de boro",
+          "formula": "B₂O₃",
+          "icon": "🔶",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-49",
+          "a": "V",
+          "b": "o2",
+          "productId": "v2o5",
+          "name": "Pentóxido de vanádio",
+          "formula": "V₂O₅",
+          "icon": "🟧",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-50",
+          "a": "W",
+          "b": "o2",
+          "productId": "wo3",
+          "name": "Trióxido de tungstênio",
+          "formula": "WO₃",
+          "icon": "🟡",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-51",
+          "a": "Pb",
+          "b": "o2",
+          "productId": "pbo",
+          "name": "Óxido de chumbo(II)",
+          "formula": "PbO",
+          "icon": "🟥",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-52",
+          "a": "Sn",
+          "b": "o2",
+          "productId": "sno2",
+          "name": "Dióxido de estanho",
+          "formula": "SnO₂",
+          "icon": "🥫",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-53",
+          "a": "Hg",
+          "b": "o2",
+          "productId": "hgo",
+          "name": "Óxido de mercúrio(II)",
+          "formula": "HgO",
+          "icon": "🔴",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-54",
+          "a": "Bi",
+          "b": "o2",
+          "productId": "bi2o3",
+          "name": "Óxido de bismuto",
+          "formula": "Bi₂O₃",
+          "icon": "🌤️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-62",
+          "a": "Na",
+          "b": "agua",
+          "productId": "naoh",
+          "name": "Soda cáustica",
+          "formula": "NaOH",
+          "icon": "🧼",
+          "equation": "2Na + 2H₂O → 2NaOH + H₂"
+        },
+        {
+          "uid": "recipe-63",
+          "a": "K",
+          "b": "agua",
+          "productId": "koh",
+          "name": "Hidróxido de potássio",
+          "formula": "KOH",
+          "icon": "🧽",
+          "equation": "2K + 2H₂O → 2KOH + H₂"
+        },
+        {
+          "uid": "recipe-64",
+          "a": "Li",
+          "b": "agua",
+          "productId": "lioh",
+          "name": "Hidróxido de lítio",
+          "formula": "LiOH",
+          "icon": "🚀",
+          "equation": "2Li + 2H₂O → 2LiOH + H₂"
+        },
+        {
+          "uid": "recipe-65",
+          "a": "Ba",
+          "b": "agua",
+          "productId": "baoh2",
+          "name": "Hidróxido de bário",
+          "formula": "Ba(OH)₂",
+          "icon": "🧂",
+          "equation": "Ba + 2H₂O → Ba(OH)₂ + H₂"
+        },
+        {
+          "uid": "recipe-66",
+          "a": "Ca",
+          "b": "agua",
+          "productId": "caoh2",
+          "name": "Cal hidratada",
+          "formula": "Ca(OH)₂",
+          "icon": "🏗️",
+          "equation": "Ca + 2H₂O → Ca(OH)₂ + H₂"
+        },
+        {
+          "uid": "recipe-67",
+          "a": "Mg",
+          "b": "agua",
+          "productId": "mgoh2",
+          "name": "Leite de magnésia",
+          "formula": "Mg(OH)₂",
+          "icon": "🥛",
+          "equation": "Mg + 2H₂O → Mg(OH)₂ + H₂"
+        },
+        {
+          "uid": "recipe-68",
+          "a": "agua",
+          "b": "cao",
+          "productId": "caoh2",
+          "name": "Cal hidratada",
+          "formula": "Ca(OH)₂",
+          "icon": "🏗️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-69",
+          "a": "agua",
+          "b": "mgo",
+          "productId": "mgoh2",
+          "name": "Leite de magnésia",
+          "formula": "Mg(OH)₂",
+          "icon": "🥛",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-70",
+          "a": "agua",
+          "b": "na2o",
+          "productId": "naoh",
+          "name": "Soda cáustica",
+          "formula": "NaOH",
+          "icon": "🧼",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-71",
+          "a": "agua",
+          "b": "k2o",
+          "productId": "koh",
+          "name": "Hidróxido de potássio",
+          "formula": "KOH",
+          "icon": "🧽",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-72",
+          "a": "agua",
+          "b": "bao",
+          "productId": "baoh2",
+          "name": "Hidróxido de bário",
+          "formula": "Ba(OH)₂",
+          "icon": "🧂",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-73",
+          "a": "agua",
+          "b": "nh3",
+          "productId": "nh4oh",
+          "name": "Amônia aquosa",
+          "formula": "NH₃(aq)",
+          "icon": "🧹",
+          "equation": "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻"
+        },
+        {
+          "uid": "recipe-74",
+          "a": "Na",
+          "b": "cl2",
+          "productId": "sal",
+          "name": "Sal de cozinha",
+          "formula": "NaCl",
+          "icon": "🧂",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-75",
+          "a": "hcl",
+          "b": "naoh",
+          "productId": "sal",
+          "name": "Sal de cozinha",
+          "formula": "NaCl",
+          "icon": "🧂",
+          "equation": "HCl + NaOH → NaCl + H₂O"
+        },
+        {
+          "uid": "recipe-76",
+          "a": "K",
+          "b": "cl2",
+          "productId": "kcl",
+          "name": "Cloreto de potássio",
+          "formula": "KCl",
+          "icon": "🍌",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-77",
+          "a": "Ca",
+          "b": "cl2",
+          "productId": "cacl2",
+          "name": "Cloreto de cálcio",
+          "formula": "CaCl₂",
+          "icon": "❄️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-78",
+          "a": "Mg",
+          "b": "cl2",
+          "productId": "mgcl2",
+          "name": "Cloreto de magnésio",
+          "formula": "MgCl₂",
+          "icon": "🌊",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-79",
+          "a": "Al",
+          "b": "cl2",
+          "productId": "alcl3",
+          "name": "Cloreto de alumínio",
+          "formula": "AlCl₃",
+          "icon": "🧊",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-80",
+          "a": "Fe",
+          "b": "cl2",
+          "productId": "fecl3",
+          "name": "Cloreto férrico",
+          "formula": "FeCl₃",
+          "icon": "🟠",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-81",
+          "a": "Cu",
+          "b": "cl2",
+          "productId": "cucl2",
+          "name": "Cloreto de cobre(II)",
+          "formula": "CuCl₂",
+          "icon": "🟢",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-82",
+          "a": "Zn",
+          "b": "cl2",
+          "productId": "zncl2",
+          "name": "Cloreto de zinco",
+          "formula": "ZnCl₂",
+          "icon": "🔩",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-83",
+          "a": "Ag",
+          "b": "cl2",
+          "productId": "agcl",
+          "name": "Cloreto de prata",
+          "formula": "AgCl",
+          "icon": "⚪",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-84",
+          "a": "Na",
+          "b": "br2",
+          "productId": "nabr",
+          "name": "Brometo de sódio",
+          "formula": "NaBr",
+          "icon": "🏊",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-85",
+          "a": "Ag",
+          "b": "br2",
+          "productId": "agbr",
+          "name": "Brometo de prata",
+          "formula": "AgBr",
+          "icon": "📷",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-86",
+          "a": "K",
+          "b": "i2",
+          "productId": "ki",
+          "name": "Iodeto de potássio",
+          "formula": "KI",
+          "icon": "🥼",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-87",
+          "a": "Ag",
+          "b": "i2",
+          "productId": "agi",
+          "name": "Iodeto de prata",
+          "formula": "AgI",
+          "icon": "☔",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-88",
+          "a": "Na",
+          "b": "f2",
+          "productId": "naf",
+          "name": "Fluoreto de sódio",
+          "formula": "NaF",
+          "icon": "🦷",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-89",
+          "a": "Ca",
+          "b": "f2",
+          "productId": "caf2",
+          "name": "Fluorita",
+          "formula": "CaF₂",
+          "icon": "💜",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-90",
+          "a": "Al",
+          "b": "f2",
+          "productId": "alf3",
+          "name": "Fluoreto de alumínio",
+          "formula": "AlF₃",
+          "icon": "🏭",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-91",
+          "a": "Xe",
+          "b": "f2",
+          "productId": "xef2",
+          "name": "Difluoreto de xenônio",
+          "formula": "XeF₂",
+          "icon": "🪩",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-92",
+          "a": "Kr",
+          "b": "f2",
+          "productId": "krf2",
+          "name": "Difluoreto de criptônio",
+          "formula": "KrF₂",
+          "icon": "🧿",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-93",
+          "a": "hcl",
+          "b": "nh3",
+          "productId": "nh4cl",
+          "name": "Cloreto de amônio",
+          "formula": "NH₄Cl",
+          "icon": "🌬️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-94",
+          "a": "cuo",
+          "b": "h2so4",
+          "productId": "cuso4",
+          "name": "Sulfato de cobre(II)",
+          "formula": "CuSO₄",
+          "icon": "🔵",
+          "equation": "CuO + H₂SO₄ → CuSO₄ + H₂O"
+        },
+        {
+          "uid": "recipe-95",
+          "a": "Ba",
+          "b": "h2so4",
+          "productId": "baso4",
+          "name": "Sulfato de bário",
+          "formula": "BaSO₄",
+          "icon": "🩻",
+          "equation": "Ba + H₂SO₄ → BaSO₄ + H₂"
+        },
+        {
+          "uid": "recipe-96",
+          "a": "Zn",
+          "b": "h2so4",
+          "productId": "znso4",
+          "name": "Sulfato de zinco",
+          "formula": "ZnSO₄",
+          "icon": "💧",
+          "equation": "Zn + H₂SO₄ → ZnSO₄ + H₂"
+        },
+        {
+          "uid": "recipe-97",
+          "a": "Mg",
+          "b": "h2so4",
+          "productId": "mgso4",
+          "name": "Sal de Epsom",
+          "formula": "MgSO₄",
+          "icon": "🛁",
+          "equation": "Mg + H₂SO₄ → MgSO₄ + H₂"
+        },
+        {
+          "uid": "recipe-98",
+          "a": "Fe",
+          "b": "h2so4",
+          "productId": "feso4",
+          "name": "Sulfato de ferro(II)",
+          "formula": "FeSO₄",
+          "icon": "🟩",
+          "equation": "Fe + H₂SO₄ → FeSO₄ + H₂"
+        },
+        {
+          "uid": "recipe-99",
+          "a": "Ca",
+          "b": "h2so4",
+          "productId": "caso4",
+          "name": "Sulfato de cálcio",
+          "formula": "CaSO₄",
+          "icon": "🧱",
+          "equation": "Ca + H₂SO₄ → CaSO₄ + H₂"
+        },
+        {
+          "uid": "recipe-100",
+          "a": "naoh",
+          "b": "h2so4",
+          "productId": "na2so4",
+          "name": "Sulfato de sódio",
+          "formula": "Na₂SO₄",
+          "icon": "🧺",
+          "equation": "2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O"
+        },
+        {
+          "uid": "recipe-101",
+          "a": "cao",
+          "b": "co2",
+          "productId": "caco3",
+          "name": "Calcário",
+          "formula": "CaCO₃",
+          "icon": "🐚",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-102",
+          "a": "caoh2",
+          "b": "co2",
+          "productId": "caco3",
+          "name": "Calcário",
+          "formula": "CaCO₃",
+          "icon": "🐚",
+          "equation": "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O"
+        },
+        {
+          "uid": "recipe-103",
+          "a": "naoh",
+          "b": "co2",
+          "productId": "na2co3",
+          "name": "Carbonato de sódio",
+          "formula": "Na₂CO₃",
+          "icon": "🥣",
+          "equation": "2NaOH + CO₂ → Na₂CO₃ + H₂O"
+        },
+        {
+          "uid": "recipe-104",
+          "a": "h2co3",
+          "b": "na2co3",
+          "productId": "nahco3",
+          "name": "Bicarbonato de sódio",
+          "formula": "NaHCO₃",
+          "icon": "🍰",
+          "equation": "H₂CO₃ + Na₂CO₃ → 2NaHCO₃"
+        },
+        {
+          "uid": "recipe-105",
+          "a": "Ca",
+          "b": "h3po4",
+          "productId": "ca3po42",
+          "name": "Fosfato de cálcio",
+          "formula": "Ca₃(PO₄)₂",
+          "icon": "🦴",
+          "equation": "3Ca + 2H₃PO₄ → Ca₃(PO₄)₂ + 3H₂"
+        },
+        {
+          "uid": "recipe-106",
+          "a": "Ag",
+          "b": "hno3",
+          "productId": "agno3",
+          "name": "Nitrato de prata",
+          "formula": "AgNO₃",
+          "icon": "🪞",
+          "equation": "3Ag + 4HNO₃ → 3AgNO₃ + NO + 2H₂O"
+        },
+        {
+          "uid": "recipe-107",
+          "a": "Cu",
+          "b": "hno3",
+          "productId": "cuno32",
+          "name": "Nitrato de cobre(II)",
+          "formula": "Cu(NO₃)₂",
+          "icon": "🟦",
+          "equation": "3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O"
+        },
+        {
+          "uid": "recipe-108",
+          "a": "na2co3",
+          "b": "silica",
+          "productId": "vidro",
+          "name": "Silicato de sódio",
+          "formula": "Na₂SiO₃",
+          "icon": "🪟",
+          "equation": "Na₂CO₃ + SiO₂ → Na₂SiO₃ + CO₂"
+        },
+        {
+          "uid": "recipe-109",
+          "a": "caco3",
+          "b": "silica",
+          "productId": "casio3",
+          "name": "Silicato de cálcio",
+          "formula": "CaSiO₃",
+          "icon": "🧱",
+          "equation": "CaCO₃ + SiO₂ → CaSiO₃ + CO₂"
+        },
+        {
+          "uid": "recipe-110",
+          "a": "caco3",
+          "b": "vidro",
+          "productId": "casio3",
+          "name": "Silicato de cálcio",
+          "formula": "CaSiO₃",
+          "icon": "🧱",
+          "equation": "CaCO₃ + Na₂SiO₃ → CaSiO₃ + Na₂CO₃"
+        },
+        {
+          "uid": "recipe-111",
+          "a": "Ag",
+          "b": "S",
+          "productId": "ag2s",
+          "name": "Sulfeto de prata",
+          "formula": "Ag₂S",
+          "icon": "🖤",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-112",
+          "a": "Hg",
+          "b": "S",
+          "productId": "hgs",
+          "name": "Cinábrio",
+          "formula": "HgS",
+          "icon": "🩸",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-113",
+          "a": "Pb",
+          "b": "S",
+          "productId": "pbs",
+          "name": "Galena",
+          "formula": "PbS",
+          "icon": "⛏️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-114",
+          "a": "Cd",
+          "b": "S",
+          "productId": "cds",
+          "name": "Amarelo de cádmio",
+          "formula": "CdS",
+          "icon": "🌻",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-115",
+          "a": "Zn",
+          "b": "S",
+          "productId": "zns",
+          "name": "Sulfeto de zinco",
+          "formula": "ZnS",
+          "icon": "🌟",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-116",
+          "a": "Fe",
+          "b": "S",
+          "productId": "fes",
+          "name": "Sulfeto de ferro(II)",
+          "formula": "FeS",
+          "icon": "⛓️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-117",
+          "a": "fes",
+          "b": "S",
+          "productId": "pirita",
+          "name": "Pirita",
+          "formula": "FeS₂",
+          "icon": "✨",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-118",
+          "a": "Cu",
+          "b": "S",
+          "productId": "cus",
+          "name": "Sulfeto de cobre(II)",
+          "formula": "CuS",
+          "icon": "🫐",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-119",
+          "a": "Mo",
+          "b": "S",
+          "productId": "mos2",
+          "name": "Dissulfeto de molibdênio",
+          "formula": "MoS₂",
+          "icon": "🛢️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-120",
+          "a": "Sb",
+          "b": "S",
+          "productId": "sb2s3",
+          "name": "Estibinita",
+          "formula": "Sb₂S₃",
+          "icon": "💫",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-121",
+          "a": "Ga",
+          "b": "n2",
+          "productId": "gan",
+          "name": "Nitreto de gálio",
+          "formula": "GaN",
+          "icon": "💡",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-122",
+          "a": "B",
+          "b": "n2",
+          "productId": "bn",
+          "name": "Nitreto de boro",
+          "formula": "BN",
+          "icon": "🔷",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-123",
+          "a": "Al",
+          "b": "n2",
+          "productId": "aln",
+          "name": "Nitreto de alumínio",
+          "formula": "AlN",
+          "icon": "🧱",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-124",
+          "a": "C",
+          "b": "W",
+          "productId": "wc",
+          "name": "Carbeto de tungstênio",
+          "formula": "WC",
+          "icon": "🛠️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-125",
+          "a": "C",
+          "b": "Si",
+          "productId": "sic",
+          "name": "Carbeto de silício",
+          "formula": "SiC",
+          "icon": "🔸",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-126",
+          "a": "Ca",
+          "b": "C",
+          "productId": "cac2",
+          "name": "Carbeto de cálcio",
+          "formula": "CaC₂",
+          "icon": "🪔",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-127",
+          "a": "As",
+          "b": "Ga",
+          "productId": "gaas",
+          "name": "Arseneto de gálio",
+          "formula": "GaAs",
+          "icon": "📡",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-128",
+          "a": "In",
+          "b": "P",
+          "productId": "inp",
+          "name": "Fosfeto de índio",
+          "formula": "InP",
+          "icon": "📶",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-129",
+          "a": "Cd",
+          "b": "Te",
+          "productId": "cdte",
+          "name": "Telureto de cádmio",
+          "formula": "CdTe",
+          "icon": "🔆",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-130",
+          "a": "Cd",
+          "b": "Se",
+          "productId": "cdse",
+          "name": "Seleneto de cádmio",
+          "formula": "CdSe",
+          "icon": "🌈",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-131",
+          "a": "Se",
+          "b": "Zn",
+          "productId": "znse",
+          "name": "Seleneto de zinco",
+          "formula": "ZnSe",
+          "icon": "🔬",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-132",
+          "a": "cac2",
+          "b": "agua",
+          "productId": "c2h2",
+          "name": "Acetileno",
+          "formula": "C₂H₂",
+          "icon": "🔦",
+          "equation": "CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂"
+        },
+        {
+          "uid": "recipe-133",
+          "a": "c2h2",
+          "b": "h2",
+          "productId": "c2h4",
+          "name": "Eteno (etileno)",
+          "formula": "C₂H₄",
+          "icon": "🍏",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-134",
+          "a": "c2h4",
+          "b": "h2",
+          "productId": "c2h6",
+          "name": "Etano",
+          "formula": "C₂H₆",
+          "icon": "🕯️",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-135",
+          "a": "c2h4",
+          "b": "agua",
+          "productId": "etanol",
+          "name": "Etanol",
+          "formula": "C₂H₅OH",
+          "icon": "🍺",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-136",
+          "a": "ch4",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": "CH₄ + 2O₂ → CO₂ + 2H₂O"
+        },
+        {
+          "uid": "recipe-137",
+          "a": "co",
+          "b": "h2",
+          "productId": "metanol",
+          "name": "Metanol",
+          "formula": "CH₃OH",
+          "icon": "🪵",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-138",
+          "a": "etanol",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O"
+        },
+        {
+          "uid": "recipe-139",
+          "a": "metanol",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": "2CH₃OH + 3O₂ → 2CO₂ + 4H₂O"
+        },
+        {
+          "uid": "recipe-140",
+          "a": "c2h2",
+          "b": "c2h2",
+          "productId": "benzeno",
+          "name": "Benzeno",
+          "formula": "C₆H₆",
+          "icon": "⬡",
+          "equation": "3C₂H₂ → C₆H₆"
+        },
+        {
+          "uid": "recipe-141",
+          "a": "ch4",
+          "b": "cl2",
+          "productId": "ch3cl",
+          "name": "Clorometano",
+          "formula": "CH₃Cl",
+          "icon": "☁️",
+          "equation": "CH₄ + Cl₂ → CH₃Cl + HCl"
+        },
+        {
+          "uid": "recipe-142",
+          "a": "nh3",
+          "b": "co2",
+          "productId": "ureia",
+          "name": "Ureia",
+          "formula": "CO(NH₂)₂",
+          "icon": "🌾",
+          "equation": "2NH₃ + CO₂ → CO(NH₂)₂ + H₂O"
+        },
+        {
+          "uid": "recipe-144",
+          "a": "ch3cl",
+          "b": "namalgama",
+          "productId": "dmhg",
+          "name": "Dimetilmercúrio",
+          "formula": "(CH₃)₂Hg",
+          "icon": "☠️",
+          "equation": "2CH₃Cl + 2Na + Hg → (CH₃)₂Hg + 2NaCl"
+        },
+        {
+          "uid": "recipe-170",
+          "a": "coo",
+          "b": "alumina",
+          "productId": "azulcobalto",
+          "name": "Azul de cobalto",
+          "formula": "CoAl₂O₄",
+          "icon": "🔷",
+          "equation": ""
+        },
+        {
+          "uid": "recipe-171",
+          "a": "nh3",
+          "b": "hno3",
+          "productId": "nh4no3",
+          "name": "Nitrato de amônio",
+          "formula": "NH₄NO₃",
+          "icon": "🌾",
+          "equation": "NH₃ + HNO₃ → NH₄NO₃"
+        },
+        {
+          "uid": "recipe-172",
+          "a": "hcl",
+          "b": "nahco3",
+          "productId": "sal",
+          "name": "Sal de cozinha",
+          "formula": "NaCl",
+          "icon": "🧂",
+          "equation": "HCl + NaHCO₃ → NaCl + CO₂ + H₂O"
+        },
+        {
+          "uid": "recipe-173",
+          "a": "caco3",
+          "b": "hcl",
+          "productId": "cacl2",
+          "name": "Cloreto de cálcio",
+          "formula": "CaCl₂",
+          "icon": "❄️",
+          "equation": "CaCO₃ + 2HCl → CaCl₂ + CO₂ + H₂O"
+        },
+        {
+          "uid": "recipe-174",
+          "a": "etanol",
+          "b": "acetico",
+          "productId": "acetatoetila",
+          "name": "Acetato de etila",
+          "formula": "CH₃COOC₂H₅",
+          "icon": "🍓",
+          "equation": "C₂H₅OH + CH₃COOH → CH₃COOC₂H₅ + H₂O"
+        },
+        {
+          "uid": "recipe-175",
+          "a": "hcl",
+          "b": "Mg",
+          "productId": "mgcl2",
+          "name": "Cloreto de magnésio",
+          "formula": "MgCl₂",
+          "icon": "🌊",
+          "equation": "Mg + 2HCl → MgCl₂ + H₂"
+        },
+        {
+          "uid": "recipe-176",
+          "a": "hcl",
+          "b": "Zn",
+          "productId": "zncl2",
+          "name": "Cloreto de zinco",
+          "formula": "ZnCl₂",
+          "icon": "🔩",
+          "equation": "Zn + 2HCl → ZnCl₂ + H₂"
+        },
+        {
+          "uid": "recipe-177",
+          "a": "hcl",
+          "b": "Fe",
+          "productId": "fecl2",
+          "name": "Cloreto de ferro(II)",
+          "formula": "FeCl₂",
+          "icon": "🟩",
+          "equation": "Fe + 2HCl → FeCl₂ + H₂"
+        },
+        {
+          "uid": "recipe-178",
+          "a": "hcl",
+          "b": "Al",
+          "productId": "alcl3",
+          "name": "Cloreto de alumínio",
+          "formula": "AlCl₃",
+          "icon": "🧊",
+          "equation": "2Al + 6HCl → 2AlCl₃ + 3H₂"
+        },
+        {
+          "uid": "recipe-179",
+          "a": "hcl",
+          "b": "Ca",
+          "productId": "cacl2",
+          "name": "Cloreto de cálcio",
+          "formula": "CaCl₂",
+          "icon": "❄️",
+          "equation": "Ca + 2HCl → CaCl₂ + H₂"
+        },
+        {
+          "uid": "recipe-180",
+          "a": "hcl",
+          "b": "koh",
+          "productId": "kcl",
+          "name": "Cloreto de potássio",
+          "formula": "KCl",
+          "icon": "🍌",
+          "equation": "HCl + KOH → KCl + H₂O"
+        },
+        {
+          "uid": "recipe-181",
+          "a": "hcl",
+          "b": "caoh2",
+          "productId": "cacl2",
+          "name": "Cloreto de cálcio",
+          "formula": "CaCl₂",
+          "icon": "❄️",
+          "equation": "Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O"
+        },
+        {
+          "uid": "recipe-182",
+          "a": "hcl",
+          "b": "baoh2",
+          "productId": "bacl2",
+          "name": "Cloreto de bário",
+          "formula": "BaCl₂",
+          "icon": "🧪",
+          "equation": "Ba(OH)₂ + 2HCl → BaCl₂ + 2H₂O"
+        },
+        {
+          "uid": "recipe-183",
+          "a": "hno3",
+          "b": "naoh",
+          "productId": "nano3",
+          "name": "Nitrato de sódio",
+          "formula": "NaNO₃",
+          "icon": "🧂",
+          "equation": "HNO₃ + NaOH → NaNO₃ + H₂O"
+        },
+        {
+          "uid": "recipe-184",
+          "a": "hno3",
+          "b": "koh",
+          "productId": "kno3",
+          "name": "Nitrato de potássio",
+          "formula": "KNO₃",
+          "icon": "✨",
+          "equation": "HNO₃ + KOH → KNO₃ + H₂O"
+        },
+        {
+          "uid": "recipe-185",
+          "a": "h2so4",
+          "b": "koh",
+          "productId": "k2so4",
+          "name": "Sulfato de potássio",
+          "formula": "K₂SO₄",
+          "icon": "🌾",
+          "equation": "H₂SO₄ + 2KOH → K₂SO₄ + 2H₂O"
+        },
+        {
+          "uid": "recipe-186",
+          "a": "h3po4",
+          "b": "naoh",
+          "productId": "na3po4",
+          "name": "Fosfato de sódio",
+          "formula": "Na₃PO₄",
+          "icon": "⚪",
+          "equation": "H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O"
+        },
+        {
+          "uid": "recipe-187",
+          "a": "h2so4",
+          "b": "baoh2",
+          "productId": "baso4",
+          "name": "Sulfato de bário",
+          "formula": "BaSO₄",
+          "icon": "🩻",
+          "equation": "H₂SO₄ + Ba(OH)₂ → BaSO₄↓ + 2H₂O"
+        },
+        {
+          "uid": "recipe-188",
+          "a": "h2so4",
+          "b": "caoh2",
+          "productId": "caso4",
+          "name": "Sulfato de cálcio",
+          "formula": "CaSO₄",
+          "icon": "🧱",
+          "equation": "H₂SO₄ + Ca(OH)₂ → CaSO₄ + 2H₂O"
+        },
+        {
+          "uid": "recipe-189",
+          "a": "h2so4",
+          "b": "nahco3",
+          "productId": "na2so4",
+          "name": "Sulfato de sódio",
+          "formula": "Na₂SO₄",
+          "icon": "🧺",
+          "equation": "H₂SO₄ + 2NaHCO₃ → Na₂SO₄ + 2CO₂ + 2H₂O"
+        },
+        {
+          "uid": "recipe-190",
+          "a": "h2co3",
+          "b": "naoh",
+          "productId": "nahco3",
+          "name": "Bicarbonato de sódio",
+          "formula": "NaHCO₃",
+          "icon": "🍰",
+          "equation": "H₂CO₃ + NaOH → NaHCO₃ + H₂O"
+        },
+        {
+          "uid": "recipe-191",
+          "a": "nh3",
+          "b": "h2so4",
+          "productId": "amonsulfato",
+          "name": "Sulfato de amônio",
+          "formula": "(NH₄)₂SO₄",
+          "icon": "🌾",
+          "equation": "2NH₃ + H₂SO₄ → (NH₄)₂SO₄"
+        },
+        {
+          "uid": "recipe-192",
+          "a": "nh4cl",
+          "b": "naoh",
+          "productId": "nh3",
+          "name": "Amônia",
+          "formula": "NH₃",
+          "icon": "🧴",
+          "equation": "NH₄Cl + NaOH → NH₃ + NaCl + H₂O"
+        },
+        {
+          "uid": "recipe-193",
+          "a": "na2co3",
+          "b": "hcl",
+          "productId": "nahco3",
+          "name": "Bicarbonato de sódio",
+          "formula": "NaHCO₃",
+          "icon": "🍰",
+          "equation": "Na₂CO₃ + HCl → NaHCO₃ + NaCl"
+        },
+        {
+          "uid": "recipe-194",
+          "a": "nahco3",
+          "b": "nahco3",
+          "productId": "na2co3",
+          "name": "Carbonato de sódio",
+          "formula": "Na₂CO₃",
+          "icon": "🥣",
+          "equation": "2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O"
+        },
+        {
+          "uid": "recipe-195",
+          "a": "h2o2",
+          "b": "h2o2",
+          "productId": "agua",
+          "name": "Água",
+          "formula": "H₂O",
+          "icon": "💧",
+          "equation": "2H₂O₂ → 2H₂O + O₂"
+        },
+        {
+          "uid": "recipe-196",
+          "a": "bacl2",
+          "b": "na2so4",
+          "productId": "baso4",
+          "name": "Sulfato de bário",
+          "formula": "BaSO₄",
+          "icon": "🩻",
+          "equation": "BaCl₂ + Na₂SO₄ → BaSO₄↓ + 2NaCl"
+        },
+        {
+          "uid": "recipe-197",
+          "a": "agno3",
+          "b": "sal",
+          "productId": "agcl",
+          "name": "Cloreto de prata",
+          "formula": "AgCl",
+          "icon": "⚪",
+          "equation": "AgNO₃ + NaCl → AgCl↓ + NaNO₃"
+        },
+        {
+          "uid": "recipe-198",
+          "a": "cuso4",
+          "b": "naoh",
+          "productId": "cuoh2",
+          "name": "Hidróxido de cobre(II)",
+          "formula": "Cu(OH)₂",
+          "icon": "🔵",
+          "equation": "CuSO₄ + 2NaOH → Cu(OH)₂↓ + Na₂SO₄"
+        },
+        {
+          "uid": "recipe-199",
+          "a": "feso4",
+          "b": "naoh",
+          "productId": "feoh2",
+          "name": "Hidróxido de ferro(II)",
+          "formula": "Fe(OH)₂",
+          "icon": "🟢",
+          "equation": "FeSO₄ + 2NaOH → Fe(OH)₂↓ + Na₂SO₄"
+        },
+        {
+          "uid": "recipe-200",
+          "a": "fecl3",
+          "b": "naoh",
+          "productId": "feoh3",
+          "name": "Hidróxido de ferro(III)",
+          "formula": "Fe(OH)₃",
+          "icon": "🟤",
+          "equation": "FeCl₃ + 3NaOH → Fe(OH)₃↓ + 3NaCl"
+        },
+        {
+          "uid": "recipe-201",
+          "a": "alcl3",
+          "b": "naoh",
+          "productId": "aloh3",
+          "name": "Hidróxido de alumínio",
+          "formula": "Al(OH)₃",
+          "icon": "⚪",
+          "equation": "AlCl₃ + 3NaOH → Al(OH)₃↓ + 3NaCl"
+        },
+        {
+          "uid": "recipe-202",
+          "a": "znso4",
+          "b": "naoh",
+          "productId": "znoh2",
+          "name": "Hidróxido de zinco",
+          "formula": "Zn(OH)₂",
+          "icon": "⚪",
+          "equation": "ZnSO₄ + 2NaOH → Zn(OH)₂↓ + Na₂SO₄"
+        },
+        {
+          "uid": "recipe-203",
+          "a": "mgcl2",
+          "b": "na2co3",
+          "productId": "mgco3",
+          "name": "Carbonato de magnésio",
+          "formula": "MgCO₃",
+          "icon": "⚪",
+          "equation": "MgCl₂ + Na₂CO₃ → MgCO₃↓ + 2NaCl"
+        },
+        {
+          "uid": "recipe-204",
+          "a": "cacl2",
+          "b": "na2co3",
+          "productId": "caco3",
+          "name": "Calcário",
+          "formula": "CaCO₃",
+          "icon": "🐚",
+          "equation": "CaCl₂ + Na₂CO₃ → CaCO₃↓ + 2NaCl"
+        },
+        {
+          "uid": "recipe-205",
+          "a": "caso4",
+          "b": "na2co3",
+          "productId": "caco3",
+          "name": "Calcário",
+          "formula": "CaCO₃",
+          "icon": "🐚",
+          "equation": "CaSO₄ + Na₂CO₃ → CaCO₃↓ + Na₂SO₄"
+        },
+        {
+          "uid": "recipe-206",
+          "a": "cuso4",
+          "b": "bacl2",
+          "productId": "baso4",
+          "name": "Sulfato de bário",
+          "formula": "BaSO₄",
+          "icon": "🩻",
+          "equation": "CuSO₄ + BaCl₂ → BaSO₄↓ + CuCl₂"
+        },
+        {
+          "uid": "recipe-207",
+          "a": "c2h2",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": "2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O"
+        },
+        {
+          "uid": "recipe-208",
+          "a": "c2h4",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": "C₂H₄ + 3O₂ → 2CO₂ + 2H₂O"
+        },
+        {
+          "uid": "recipe-209",
+          "a": "c2h6",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O"
+        },
+        {
+          "uid": "recipe-210",
+          "a": "hcho",
+          "b": "o2",
+          "productId": "co2",
+          "name": "Dióxido de carbono",
+          "formula": "CO₂",
+          "icon": "🌫️",
+          "equation": "HCHO + O₂ → CO₂ + H₂O"
+        },
+        {
+          "uid": "recipe-211",
+          "a": "Ca",
+          "b": "S",
+          "productId": "cas",
+          "name": "Sulfeto de cálcio",
+          "formula": "CaS",
+          "icon": "💎",
+          "equation": "Ca + S → CaS"
+        },
+        {
+          "uid": "recipe-212",
+          "a": "Mg",
+          "b": "S",
+          "productId": "mgs",
+          "name": "Sulfeto de magnésio",
+          "formula": "MgS",
+          "icon": "🌟",
+          "equation": "Mg + S → MgS"
+        },
+        {
+          "uid": "recipe-213",
+          "a": "Al",
+          "b": "S",
+          "productId": "al2s3",
+          "name": "Sulfeto de alumínio",
+          "formula": "Al₂S₃",
+          "icon": "🟨",
+          "equation": "2Al + 3S → Al₂S₃"
+        },
+        {
+          "uid": "recipe-214",
+          "a": "Na",
+          "b": "S",
+          "productId": "na2s",
+          "name": "Sulfeto de sódio",
+          "formula": "Na₂S",
+          "icon": "🧂",
+          "equation": "2Na + S → Na₂S"
+        },
+        {
+          "uid": "recipe-215",
+          "a": "Li",
+          "b": "n2",
+          "productId": "li3n",
+          "name": "Nitreto de lítio",
+          "formula": "Li₃N",
+          "icon": "🔋",
+          "equation": "6Li + N₂ → 2Li₃N"
+        },
+        {
+          "uid": "recipe-216",
+          "a": "Mg",
+          "b": "n2",
+          "productId": "mg3n2",
+          "name": "Nitreto de magnésio",
+          "formula": "Mg₃N₂",
+          "icon": "✨",
+          "equation": "3Mg + N₂ → Mg₃N₂"
+        },
+        {
+          "uid": "recipe-217",
+          "a": "Ca",
+          "b": "n2",
+          "productId": "ca3n2",
+          "name": "Nitreto de cálcio",
+          "formula": "Ca₃N₂",
+          "icon": "🧱",
+          "equation": "3Ca + N₂ → Ca₃N₂"
+        },
+        {
+          "uid": "recipe-218",
+          "a": "Si",
+          "b": "cl2",
+          "productId": "sicl4",
+          "name": "Tetracloreto de silício",
+          "formula": "SiCl₄",
+          "icon": "🌫️",
+          "equation": "Si + 2Cl₂ → SiCl₄"
+        },
+        {
+          "uid": "recipe-219",
+          "a": "P",
+          "b": "cl2",
+          "productId": "pcl3",
+          "name": "Tricloreto de fósforo",
+          "formula": "PCl₃",
+          "icon": "⚗️",
+          "equation": "P₄ + 6Cl₂ → 4PCl₃"
+        },
+        {
+          "uid": "recipe-220",
+          "a": "B",
+          "b": "f2",
+          "productId": "bf3",
+          "name": "Trifluoreto de boro",
+          "formula": "BF₃",
+          "icon": "🧪",
+          "equation": "2B + 3F₂ → 2BF₃"
+        },
+        {
+          "uid": "recipe-221",
+          "a": "C",
+          "b": "cl2",
+          "productId": "ccl4",
+          "name": "Tetracloreto de carbono",
+          "formula": "CCl₄",
+          "icon": "🧪",
+          "equation": "C + 2Cl₂ → CCl₄"
+        },
+        {
+          "uid": "recipe-222",
+          "a": "Zn",
+          "b": "cuso4",
+          "productId": "znso4",
+          "name": "Sulfato de zinco",
+          "formula": "ZnSO₄",
+          "icon": "💧",
+          "equation": "Zn + CuSO₄ → ZnSO₄ + Cu"
+        },
+        {
+          "uid": "recipe-223",
+          "a": "Fe",
+          "b": "cuso4",
+          "productId": "feso4",
+          "name": "Sulfato de ferro(II)",
+          "formula": "FeSO₄",
+          "icon": "🟩",
+          "equation": "Fe + CuSO₄ → FeSO₄ + Cu"
+        },
+        {
+          "uid": "recipe-224",
+          "a": "Cu",
+          "b": "agno3",
+          "productId": "cuno32",
+          "name": "Nitrato de cobre(II)",
+          "formula": "Cu(NO₃)₂",
+          "icon": "🟦",
+          "equation": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag"
+        },
+        {
+          "uid": "recipe-228",
+          "a": "Hf",
+          "b": "o2",
+          "productId": "hfo2",
+          "name": "Óxido de háfnio",
+          "formula": "HfO₂",
+          "icon": "💠",
+          "equation": "Hf + O₂ → HfO₂"
+        },
+        {
+          "uid": "recipe-229",
+          "a": "Ta",
+          "b": "o2",
+          "productId": "ta2o5",
+          "name": "Pentóxido de tântalo",
+          "formula": "Ta₂O₅",
+          "icon": "💎",
+          "equation": "4Ta + 5O₂ → 2Ta₂O₅"
+        },
+        {
+          "uid": "recipe-230",
+          "a": "La",
+          "b": "o2",
+          "productId": "la2o3",
+          "name": "Óxido de lantânio",
+          "formula": "La₂O₃",
+          "icon": "🔆",
+          "equation": "4La + 3O₂ → 2La₂O₃"
+        },
+        {
+          "uid": "recipe-231",
+          "a": "Ce",
+          "b": "o2",
+          "productId": "ceo2",
+          "name": "Dióxido de cério",
+          "formula": "CeO₂",
+          "icon": "✨",
+          "equation": "Ce + O₂ → CeO₂"
+        },
+        {
+          "uid": "recipe-232",
+          "a": "Nd",
+          "b": "o2",
+          "productId": "nd2o3",
+          "name": "Óxido de neodímio",
+          "formula": "Nd₂O₃",
+          "icon": "🟪",
+          "equation": "4Nd + 3O₂ → 2Nd₂O₃"
+        },
+        {
+          "uid": "recipe-233",
+          "a": "W",
+          "b": "f2",
+          "productId": "wf6",
+          "name": "Hexafluoreto de tungstênio",
+          "formula": "WF₆",
+          "icon": "🧪",
+          "equation": "W + 3F₂ → WF₆"
+        }
+      ]
     }
-  ]
+  }
 }

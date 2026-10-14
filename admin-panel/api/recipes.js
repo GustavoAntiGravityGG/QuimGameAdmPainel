@@ -68,31 +68,67 @@ function readRequestBody(req) {
   return {};
 }
 
-function normalizeRecipes(value) {
-  if (!Array.isArray(value) || value.length > 5000) throw new Error('Envie uma lista válida com até 5.000 receitas.');
+function inferClassKey(item) {
+  const name = String(item.name || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').trim();
+  if (/^Acido\b/i.test(name)) return 'acido';
+  const category = String(item.category || item.cat || '').toLowerCase();
+  if (category === 'acidos') return 'acido';
+  if (category === 'ligas' || /[-–—]/.test(String(item.formula || '')) || /^nº\s*\d+/i.test(String(item.formula || ''))) return 'metais';
+  return 'outros';
+}
+
+function normalizeRecipeGroups(value) {
+  let sourceGroups;
+  if (Array.isArray(value)) {
+    sourceGroups = Object.create(null);
+    for (const item of value) {
+      if (!item || typeof item !== 'object' || Array.isArray(item)) throw new Error('Há uma receita inválida no catálogo.');
+      const classKey = String(item.classKey || item.class || inferClassKey(item)).trim().toLowerCase();
+      if (!/^[a-z0-9_-]{1,60}$/.test(classKey)) throw new Error('Nome de classe inválido. Use letras sem acento, números, hífen ou sublinhado.');
+      if (!Object.hasOwn(sourceGroups, classKey)) sourceGroups[classKey] = [];
+      sourceGroups[classKey].push(item);
+    }
+  } else {
+    sourceGroups = value?.class && typeof value.class === 'object' && !Array.isArray(value.class) ? value.class : null;
+    if (!sourceGroups) throw new Error('Envie receitas agrupadas em recipes.class.');
+  }
+
+  const groups = Object.create(null);
   const uids = new Set();
   const pairs = new Set();
-  return value.map((item, index) => {
-    if (!item || typeof item !== 'object' || Array.isArray(item)) throw new Error(`Receita ${index + 1} inválida.`);
-    const recipe = {
-      uid: String(item.uid || '').trim(),
-      a: String(item.a || '').trim(),
-      b: String(item.b || '').trim(),
-      productId: String(item.productId || '').trim(),
-      name: String(item.name || '').trim(),
-      formula: String(item.formula || '').trim(),
-      icon: String(item.icon || '🧪').trim(),
-      equation: String(item.equation || '').trim()
-    };
-    if (!recipe.uid || recipe.uid.length > 100 || uids.has(recipe.uid)) throw new Error(`Identificador repetido ou inválido na receita ${index + 1}.`);
-    if (![recipe.a, recipe.b, recipe.productId].every(id => /^[A-Za-z0-9_-]{1,60}$/.test(id))) throw new Error(`ID de reagente ou produto inválido na receita ${index + 1}.`);
-    if (!recipe.name || recipe.name.length > 120 || !recipe.formula || recipe.formula.length > 80 || recipe.icon.length > 16 || recipe.equation.length > 500) throw new Error(`Campos longos ou vazios na receita ${index + 1}.`);
-    const pair = [recipe.a, recipe.b].sort().join('+');
-    if (pairs.has(pair)) throw new Error(`A combinação ${recipe.a} + ${recipe.b} aparece mais de uma vez.`);
-    uids.add(recipe.uid);
-    pairs.add(pair);
-    return recipe;
-  });
+  let count = 0;
+  for (const [rawClassKey, items] of Object.entries(sourceGroups)) {
+    const classKey = String(rawClassKey).trim().toLowerCase();
+    if (!/^[a-z0-9_-]{1,60}$/.test(classKey)) throw new Error('Nome de classe inválido. Use letras sem acento, números, hífen ou sublinhado.');
+    if (!Array.isArray(items)) throw new Error(`A classe ${classKey} precisa conter uma lista de receitas.`);
+    groups[classKey] = [];
+    for (const item of items) {
+      count += 1;
+      if (count > 5000) throw new Error('Envie até 5.000 receitas.');
+      if (!item || typeof item !== 'object' || Array.isArray(item)) throw new Error(`Receita ${count} inválida.`);
+      const recipe = {
+        uid: String(item.uid || '').trim(),
+        a: String(item.a || '').trim(),
+        b: String(item.b || '').trim(),
+        productId: String(item.productId || '').trim(),
+        name: String(item.name || '').trim(),
+        formula: String(item.formula || '').trim(),
+        icon: String(item.icon || '🧪').trim(),
+        equation: String(item.equation || '').trim()
+      };
+      const category = String(item.category || item.cat || '').trim();
+      if (category) recipe.category = category;
+      if (!recipe.uid || recipe.uid.length > 100 || uids.has(recipe.uid)) throw new Error(`Identificador repetido ou inválido na receita ${count}.`);
+      if (![recipe.a, recipe.b, recipe.productId].every(id => /^[A-Za-z0-9_-]{1,60}$/.test(id))) throw new Error(`ID de reagente ou produto inválido na receita ${count}.`);
+      if (!recipe.name || recipe.name.length > 120 || !recipe.formula || recipe.formula.length > 80 || recipe.icon.length > 16 || recipe.equation.length > 500 || category.length > 50) throw new Error(`Campos longos ou vazios na receita ${count}.`);
+      const pair = [recipe.a, recipe.b].sort().join('+');
+      if (pairs.has(pair)) throw new Error(`A combinação ${recipe.a} + ${recipe.b} aparece mais de uma vez.`);
+      uids.add(recipe.uid);
+      pairs.add(pair);
+      groups[classKey].push(recipe);
+    }
+  }
+  return { class: groups };
 }
 
 module.exports = async function handler(req, res) {
@@ -107,12 +143,12 @@ module.exports = async function handler(req, res) {
   if (req.method === 'GET') {
     try {
       const configured = !!redisConfig();
-      if (!configured) return send(req, res, 200, { version: 1, updatedAt: null, recipes: SEED.recipes, source: 'seed', writable: false });
+      if (!configured) return send(req, res, 200, { version: 2, updatedAt: null, recipes: normalizeRecipeGroups(SEED.recipes), source: 'seed', writable: false });
       const values = await redisCommand([['GET', CATALOG_KEY]]);
-      if (!values[0]) return send(req, res, 200, { version: 1, updatedAt: null, recipes: SEED.recipes, source: 'seed', writable: true });
+      if (!values[0]) return send(req, res, 200, { version: 2, updatedAt: null, recipes: normalizeRecipeGroups(SEED.recipes), source: 'seed', writable: true });
       const saved = JSON.parse(values[0]);
-      if (!saved || !Array.isArray(saved.recipes)) throw new Error('Catálogo salvo inválido.');
-      return send(req, res, 200, { version: 1, updatedAt: saved.updatedAt || null, recipes: saved.recipes, source: 'redis', writable: true });
+      if (!saved || !saved.recipes) throw new Error('Catálogo salvo inválido.');
+      return send(req, res, 200, { version: 2, updatedAt: saved.updatedAt || null, recipes: normalizeRecipeGroups(saved.recipes), source: 'redis', writable: true });
     } catch (error) {
       return send(req, res, 503, { error: error.message || 'Não foi possível carregar o catálogo.' });
     }
@@ -129,13 +165,14 @@ module.exports = async function handler(req, res) {
     if (!redisConfig()) return send(req, res, 503, { error: 'Configure UPSTASH_REDIS_REST_URL e UPSTASH_REDIS_REST_TOKEN no Vercel.' });
     try {
       const body = readRequestBody(req);
-      const recipes = normalizeRecipes(body.recipes);
-      const serialized = JSON.stringify({ version: 1, updatedAt: new Date().toISOString(), recipes });
+      const recipes = normalizeRecipeGroups(body.recipes);
+      const count = Object.values(recipes.class).reduce((total, items) => total + items.length, 0);
+      const serialized = JSON.stringify({ version: 2, updatedAt: new Date().toISOString(), recipes });
       if (Buffer.byteLength(serialized, 'utf8') > 1_500_000) return send(req, res, 413, { error: 'O catálogo excedeu o limite de 1,5 MB.' });
       await redisCommand([['SET', CATALOG_KEY, serialized]]);
-      return send(req, res, 200, { ok: true, count: recipes.length, updatedAt: JSON.parse(serialized).updatedAt });
+      return send(req, res, 200, { ok: true, count, updatedAt: JSON.parse(serialized).updatedAt });
     } catch (error) {
-      const badRequest = error instanceof SyntaxError || /lista válida|inválida|repetido|ID de reagente|Campos longos|aparece mais de uma vez/i.test(error.message || '');
+      const badRequest = error instanceof SyntaxError || /receitas agrupadas|lista de receitas|classe inválida|até 5\.000|receita inválida|repetido|ID de reagente|Campos longos|aparece mais de uma vez/i.test(error.message || '');
       return send(req, res, badRequest ? 400 : 503, { error: error.message || 'Não foi possível salvar o catálogo.' });
     }
   }
